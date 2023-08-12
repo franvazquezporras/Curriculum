@@ -1,0 +1,959 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.23f1 (213b516bf396) revision 2177873'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'es' Physical Memory: 32637 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity Editors\2021.3.23f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/Vazkez/Documents/GitHub/Curriculum/Curriculum
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+50136
+Successfully changed project path to: C:/Users/Vazkez/Documents/GitHub/Curriculum/Curriculum
+C:/Users/Vazkez/Documents/GitHub/Curriculum/Curriculum
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [5356] Host "[IP] 192.168.1.133 [Port] 0 [Flags] 2 [Guid] 604707659 [EditorId] 604707659 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-TBO2R08) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [5356] Host "[IP] 192.168.1.133 [Port] 0 [Flags] 2 [Guid] 604707659 [EditorId] 604707659 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-TBO2R08) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 79.90 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.23f1 (213b516bf396)
+[Subsystems] Discovering subsystems at path D:/Unity Editors/2021.3.23f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Vazkez/Documents/GitHub/Curriculum/Curriculum/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2489)
+    Vendor:   NVIDIA
+    VRAM:     8038 MB
+    Driver:   31.0.15.3179
+Initialize mono
+Mono path[0] = 'D:/Unity Editors/2021.3.23f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity Editors/2021.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity Editors/2021.3.23f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56120
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity Editors/2021.3.23f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity Editors/2021.3.23f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Unity Editors/2021.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003041 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 189 ms
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 81.02 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.741 seconds
+Domain Reload Profiling:
+	ReloadAssembly (741ms)
+		BeginReloadAssembly (87ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (587ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (80ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (430ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (247ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (81ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (71ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005948 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 79.94 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.994 seconds
+Domain Reload Profiling:
+	ReloadAssembly (995ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (812ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (217ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (415ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (80ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (167ms)
+				ProcessInitializeOnLoadMethodAttributes (76ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.67 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4779 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (229.4 KB). Loaded Objects now: 5238.
+Memory consumption went from 177.0 MB to 176.8 MB.
+Total: 3.534700 ms (FindLiveObjects: 0.291500 ms CreateObjectMapping: 0.138500 ms MarkObjects: 2.976100 ms  DeleteObjects: 0.127800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2492.429917 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/backgr_mount1.psd
+  artifactKey: Guid(80c17d9693079f44c8b0238fe2e6a4ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/backgr_mount1.psd using Guid(80c17d9693079f44c8b0238fe2e6a4ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '55356adbbb7d7110b9f1d57589125bf0') in 0.129552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+  artifactKey: Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader using Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'accafc983763eb8a463e307b337ad50a') in 0.019026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/backgr3.psd
+  artifactKey: Guid(b7560b31dbe446b4882da9281bd54c89) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/backgr3.psd using Guid(b7560b31dbe446b4882da9281bd54c89) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b3b380343c04f69dc701715a7299cb1b') in 0.026210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/cliffleft1_flat.png
+  artifactKey: Guid(587d9dd29e8c5f74394821bcab0f50aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/cliffleft1_flat.png using Guid(587d9dd29e8c5f74394821bcab0f50aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ae3833dbeb268d535929f86396b532f1') in 0.039336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/bush-2.png
+  artifactKey: Guid(c89bc3415bc971a459f2885debd0d63f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/bush-2.png using Guid(c89bc3415bc971a459f2885debd0d63f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '804128ae602c2b479e35d4d78546e5e5') in 0.024349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/backgr2.psd
+  artifactKey: Guid(377aef1c7b4d75b4a96c94db107d3794) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/backgr2.psd using Guid(377aef1c7b4d75b4a96c94db107d3794) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4281dd401f266b9729f3e8fbc27fc162') in 0.033197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/branchc5.png
+  artifactKey: Guid(7190264a48374bc4d896bfffd01e72e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/branchc5.png using Guid(7190264a48374bc4d896bfffd01e72e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '433aeb3ef8870070f1260a4b9cebde3d') in 0.021146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/branchc1.png
+  artifactKey: Guid(2ebc2a15f9955514092c1ab432ca5f5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/branchc1.png using Guid(2ebc2a15f9955514092c1ab432ca5f5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7cc8602897888a1c3bbb96b2dd72131e') in 0.021996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+  artifactKey: Guid(381dcb09d5029d14897e55f98031fca5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt using Guid(381dcb09d5029d14897e55f98031fca5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e6ebc2fc50c48d29e2e160045d55725a') in 0.017542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/cl3.png
+  artifactKey: Guid(c7f461a106e1268458735ee87c421b72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/cl3.png using Guid(c7f461a106e1268458735ee87c421b72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e462b19899546efe10ea02473124beb4') in 0.024350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Localization/Spanish (es).asset
+  artifactKey: Guid(fd3a204142e52394989f6061aae093c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Localization/Spanish (es).asset using Guid(fd3a204142e52394989f6061aae093c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5d72fd28747d32c44f199c3395a29f9b') in 0.018422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+  artifactKey: Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc using Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'db37e4fe4382428faa51221d896da49a') in 0.013860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+  artifactKey: Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader using Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd57ec33bfd60a17b2517b3f2e43592f7') in 0.012951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/AddressableAssetsData/AssetGroups/Localization-Assets-Shared.asset
+  artifactKey: Guid(21511d170ad8dda4997ad47d6f6cf17f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AddressableAssetsData/AssetGroups/Localization-Assets-Shared.asset using Guid(21511d170ad8dda4997ad47d6f6cf17f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '62c04de1246f383ee1eb9939acf9c20d') in 0.010312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/bush-1.png
+  artifactKey: Guid(506393fcbc902014fa8d895a0195223f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/bush-1.png using Guid(506393fcbc902014fa8d895a0195223f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '54d2dfb5571657a1915649aa16cd5929') in 0.024050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/AddressableAssetsData/DataBuilders/BuildScriptFastMode.asset
+  artifactKey: Guid(dd2245ad1575c7d4686f456779461257) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AddressableAssetsData/DataBuilders/BuildScriptFastMode.asset using Guid(dd2245ad1575c7d4686f456779461257) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '839758bdc9eba6d0a3cb5e1cab151266') in 0.011131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/AddressableAssetsData/AssetGroups/Schemas/Localization-Assets-Shared_ContentUpdateGroupSchema.asset
+  artifactKey: Guid(c7a4074fd70b1474a89e2663f1196136) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AddressableAssetsData/AssetGroups/Schemas/Localization-Assets-Shared_ContentUpdateGroupSchema.asset using Guid(c7a4074fd70b1474a89e2663f1196136) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4c9fea6c89639fa86a6d119416fc7cd9') in 0.013291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/fartree1.png
+  artifactKey: Guid(7a65900ad4125724387abb9964635e13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/fartree1.png using Guid(7a65900ad4125724387abb9964635e13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5d72e13d2ee8d74e924d0dbe47ffff56') in 0.021724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/cliff_background2_flat.png
+  artifactKey: Guid(74d45e7927d9b8540a25553266ae8091) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/cliff_background2_flat.png using Guid(74d45e7927d9b8540a25553266ae8091) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dd834660b3cda31f9dd5f3e9567162ae') in 0.023526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/grass7.png
+  artifactKey: Guid(429cc3e9a6e08fc4e9084e4fe68be795) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/grass7.png using Guid(429cc3e9a6e08fc4e9084e4fe68be795) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bbb25b973cac3646102bea2af84f4e8c') in 0.021716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/flower3.png
+  artifactKey: Guid(9bca5571d55e3fc48bba26588e81687b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/flower3.png using Guid(9bca5571d55e3fc48bba26588e81687b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f8e7cd8e067e44bbfa6d436fe7276350') in 0.022469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/grass8.png
+  artifactKey: Guid(842d002b307544446813c1bcee520f34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/grass8.png using Guid(842d002b307544446813c1bcee520f34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7c6f330abe5f8ae3a69900d2c7cb7a2f') in 0.024941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/grass2.png
+  artifactKey: Guid(6295f9ff9c9466847b84091b5a99c919) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/grass2.png using Guid(6295f9ff9c9466847b84091b5a99c919) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cc277e9f5b2eed249e825853a5faa6b7') in 0.020437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/plants3.png
+  artifactKey: Guid(f29fdcf0265c92e489c7e7c08b7e4bfd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/plants3.png using Guid(f29fdcf0265c92e489c7e7c08b7e4bfd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a87a9b9fcaaa9625334277b2af25833f') in 0.019134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/mushroom2.png
+  artifactKey: Guid(3402b0180a6eb3c4e9d60a73fd9e743a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/mushroom2.png using Guid(3402b0180a6eb3c4e9d60a73fd9e743a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1028353346b30e554d2e2dfe78d08f9d') in 0.021112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/icon_on_jungle.png
+  artifactKey: Guid(d460d0bd5bffcbf4b9f83b59982f3543) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/icon_on_jungle.png using Guid(d460d0bd5bffcbf4b9f83b59982f3543) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '305e8172161c20535350152e3aa371b0') in 0.021634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/flower2.png
+  artifactKey: Guid(70d1e20d6155b3e4087b320805a252c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/flower2.png using Guid(70d1e20d6155b3e4087b320805a252c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'acbd21bcb452625f450974fe329e138a') in 0.022411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/grass5.png
+  artifactKey: Guid(e1a638b059daceb4d889f9c76589ee6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/grass5.png using Guid(e1a638b059daceb4d889f9c76589ee6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '668294fd508490321a9b36a1658dab0d') in 0.021080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/branch2.png
+  artifactKey: Guid(1a08fdcc83fc86442abda1a065ee985b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/branch2.png using Guid(1a08fdcc83fc86442abda1a065ee985b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd0c8b823021c64ace8ad40b2adf89a0b') in 0.021649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/AddressableAssetsData/AssetGroups/Localization-Locales.asset
+  artifactKey: Guid(21dad74b95c29ab4a86b67d9847a74fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AddressableAssetsData/AssetGroups/Localization-Locales.asset using Guid(21dad74b95c29ab4a86b67d9847a74fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4035ef525be242597df5acde1420166f') in 0.010270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/grass1.png
+  artifactKey: Guid(13eedbe1a0c827f4889d0cf0fa7c0549) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/grass1.png using Guid(13eedbe1a0c827f4889d0cf0fa7c0549) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '40f55455d9c73e5f3e1328936f36f1cc') in 0.020283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/MainMenu.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'db03e8d1417c5767fadb66004993cc0d') in 0.010151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/branch2b.png
+  artifactKey: Guid(6be7d6d5f72861f42bac119c5bda5053) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/branch2b.png using Guid(6be7d6d5f72861f42bac119c5bda5053) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '35ef3197bc7a5b9e455e1e4eee32ffd4') in 0.021038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/cliff_background1.png
+  artifactKey: Guid(bedb310ab832e914c8201918c24d3408) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/cliff_background1.png using Guid(bedb310ab832e914c8201918c24d3408) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f49248b590caf8c89ea7ac61dcdb41fa') in 0.025151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/branch5.png
+  artifactKey: Guid(9f3781c7c60e63941b9c611fdff6dec4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/branch5.png using Guid(9f3781c7c60e63941b9c611fdff6dec4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5a55cb15ef61f2d103cad203f99fed09') in 0.020969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/AddressableAssetsData/AssetGroups/Schemas/Default Local Group_ContentUpdateGroupSchema.asset
+  artifactKey: Guid(b95dfcfae772ffe47903b58e6189b4a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AddressableAssetsData/AssetGroups/Schemas/Default Local Group_ContentUpdateGroupSchema.asset using Guid(b95dfcfae772ffe47903b58e6189b4a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9471023ee39d7801065b71f7e1e0b555') in 0.014380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/cliff_background1_flat.png
+  artifactKey: Guid(9be3886632544ac44a89eda45286874a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/cliff_background1_flat.png using Guid(9be3886632544ac44a89eda45286874a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6d0c561edbe68f6dc050ec501d297de6') in 0.021798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/trunk1.png
+  artifactKey: Guid(ec53fcc520750774ebf0d730a37b33e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/trunk1.png using Guid(ec53fcc520750774ebf0d730a37b33e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '52932c9e00c8c4452a315eea37c7310f') in 0.020176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/spiky_liana_right.png
+  artifactKey: Guid(fbad1d1d50ce1684b88608a7122c9a2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/spiky_liana_right.png using Guid(fbad1d1d50ce1684b88608a7122c9a2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e6db543f6d2cffa17d7f75857c167422') in 0.022264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Example Levels/Moonlight.unity
+  artifactKey: Guid(c766020ee88a382488d0bea1a90ae309) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Example Levels/Moonlight.unity using Guid(c766020ee88a382488d0bea1a90ae309) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8ce721a5292e4c5048232ec379deebca') in 0.007858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/platform_small2.png
+  artifactKey: Guid(3983d3df1e37cfc4ab8a658df968ee3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/platform_small2.png using Guid(3983d3df1e37cfc4ab8a658df968ee3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f2132fe69afa193da5a613f9bf457b63') in 0.020088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/shroom5.png
+  artifactKey: Guid(b2474aa96221c28439e10c6cde3132b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/shroom5.png using Guid(b2474aa96221c28439e10c6cde3132b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '672076803943251c1d076d7c5eab698b') in 0.020102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/sunray.tif
+  artifactKey: Guid(1accd51c073ceb64484b083a5a39b60c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/sunray.tif using Guid(1accd51c073ceb64484b083a5a39b60c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bf704a9c143e1ba6f63309e1c4e32141') in 0.022212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/stone2.png
+  artifactKey: Guid(6855d16362956544aa62c77f163c2401) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/stone2.png using Guid(6855d16362956544aa62c77f163c2401) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '785919d7c945c8d94186932148b875bd') in 0.022804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/platform1-middle.png
+  artifactKey: Guid(fcaf967ec5af81f45b83bc6b1a9ccdf8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/platform1-middle.png using Guid(fcaf967ec5af81f45b83bc6b1a9ccdf8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c612a11037eed0c09b7c2a7fdc7fd60b') in 0.021305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/platfom_small1.png
+  artifactKey: Guid(2569ce4b31662244b989e5bc887e0dab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/platfom_small1.png using Guid(2569ce4b31662244b989e5bc887e0dab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5f962cd8f4b13243e6b9ae421554ae5d') in 0.021626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/plants6.png
+  artifactKey: Guid(407accd6342727f40a9c6cc6dfc4d24f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/plants6.png using Guid(407accd6342727f40a9c6cc6dfc4d24f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fb1f893af0d80f6710bb397711e48816') in 0.020219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/plants8.png
+  artifactKey: Guid(60b12531f4dc4af4ebb462f3b880700e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/plants8.png using Guid(60b12531f4dc4af4ebb462f3b880700e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e9b0d6cacb133b6203a9c052d1e48d70') in 0.021387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/stone4.png
+  artifactKey: Guid(904bd6f0101bc3c4486de3be65ae3599) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/stone4.png using Guid(904bd6f0101bc3c4486de3be65ae3599) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6697c1632104fbfaf94e5b001d38ec81') in 0.021926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/platform1grey_leftflat.png
+  artifactKey: Guid(40611039a5b1452458566bf8e78965fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/platform1grey_leftflat.png using Guid(40611039a5b1452458566bf8e78965fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2e9f3df54aaeb43fc56e66c6d269e600') in 0.024124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/shroom1.png
+  artifactKey: Guid(7c5dd40dd8ec0384294bf8155dc58f17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/shroom1.png using Guid(7c5dd40dd8ec0384294bf8155dc58f17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a35f622e8d478a5f7301cbfab3579378') in 0.022062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/trunk4.png
+  artifactKey: Guid(d34282e0e6da20447b842448c77f1860) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/trunk4.png using Guid(d34282e0e6da20447b842448c77f1860) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '296e501cec3884d5b2592c2e25ed327c') in 0.021944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/tree1b.png
+  artifactKey: Guid(fd109ade766715b4591ef144ef904992) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/tree1b.png using Guid(fd109ade766715b4591ef144ef904992) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '060c9a0944970324af386eee8afd20dd') in 0.023190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/tree2b.png
+  artifactKey: Guid(10956b5bf757169439b222cbb398fcb3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/tree2b.png using Guid(10956b5bf757169439b222cbb398fcb3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c5e1e16a358c934a93311ebde0f685ba') in 0.022860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/tree2.png
+  artifactKey: Guid(f7e984d9999ea6942b8c3847e5f6f538) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/tree2.png using Guid(f7e984d9999ea6942b8c3847e5f6f538) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6a13df2056da7f97477b8edc1de5795a') in 0.020689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Example Levels/MoonlightSettings.lighting
+  artifactKey: Guid(59d214ff66bbab245aea7c7a7d851841) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Example Levels/MoonlightSettings.lighting using Guid(59d214ff66bbab245aea7c7a7d851841) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) LightingSettings: switching bake backend from 1 to 0.
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0505dfc879b09989bfdc226ae34fb933') in 0.022972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/AddressableAssetsData/AssetGroups/Schemas/Localization-String-Tables-English (en)_BundledAssetGroupSchema.asset
+  artifactKey: Guid(fe5a63d362c4981418d687e90ec3e8b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AddressableAssetsData/AssetGroups/Schemas/Localization-String-Tables-English (en)_BundledAssetGroupSchema.asset using Guid(fe5a63d362c4981418d687e90ec3e8b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7daa15eb24da4b3c6279b09ca1f56df5') in 0.015874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/grass_19 (11).controller
+  artifactKey: Guid(7f68240dfeb20564b81fa17848289f83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/grass_19 (11).controller using Guid(7f68240dfeb20564b81fa17848289f83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '020777d2457df2b913c31705b8fd95b5') in 0.020763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/bark1Liana2.anim
+  artifactKey: Guid(298d2bb54e4ea5940b5f69dcf6d287c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/bark1Liana2.anim using Guid(298d2bb54e4ea5940b5f69dcf6d287c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ca6d16fde645f20e36d461db1a79a51e') in 0.018143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/flying-pl2.anim
+  artifactKey: Guid(2c5a0eeae85d1f64882783a62a4d46a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/flying-pl2.anim using Guid(2c5a0eeae85d1f64882783a62a4d46a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd6620304a250c587043567d3535bfcdc') in 0.014665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/BS2.anim
+  artifactKey: Guid(a755c0630a5a30a4494c86c8f620e5c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/BS2.anim using Guid(a755c0630a5a30a4494c86c8f620e5c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '235ea1e67a3f20d935d3a774a1021a75') in 0.012961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Particles/Leaf4.mat
+  artifactKey: Guid(576b655d9f67719439904e32dcae1b2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Particles/Leaf4.mat using Guid(576b655d9f67719439904e32dcae1b2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c6b7a92fa71fd70ecc736ad0420e4f95') in 0.031602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/grass_19 (1).controller
+  artifactKey: Guid(2e213c8e277ee34488dd4c7254b02b60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/grass_19 (1).controller using Guid(2e213c8e277ee34488dd4c7254b02b60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '608d7b831b236aaa5716ad6b171687ee') in 0.023102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/grass_15 (7).controller
+  artifactKey: Guid(7f56386b1d4fd0049b44bb5aebe9c712) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/grass_15 (7).controller using Guid(7f56386b1d4fd0049b44bb5aebe9c712) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a1522f8d5786756b5709dba1cdf94449') in 0.015297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/bark2liana5.anim
+  artifactKey: Guid(8112add2bea34ca47980a10d96c81a84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/bark2liana5.anim using Guid(8112add2bea34ca47980a10d96c81a84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '77b50c33e9dfee0c6bc4671e9600f035') in 0.015347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Script/CameraFollow.cs
+  artifactKey: Guid(14f1efb1d477e124d9fc4109904340fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Script/CameraFollow.cs using Guid(14f1efb1d477e124d9fc4109904340fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'db7d6875d47f55f25d659b5cca37ee29') in 0.034679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/Blshroom4.anim
+  artifactKey: Guid(96c7d350708f87f48be56020dc9ea019) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/Blshroom4.anim using Guid(96c7d350708f87f48be56020dc9ea019) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9e27bcb24f389706bda39fc21fede838') in 0.013492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Script/Kill.cs
+  artifactKey: Guid(e25bd30161e81464f92cc54ada7b03e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Script/Kill.cs using Guid(e25bd30161e81464f92cc54ada7b03e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3566753d9d0d2fcb6c01bf9a9831a989') in 0.010570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/1_18.controller
+  artifactKey: Guid(731bb7e78449b384f9fd80bd36c9149d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/1_18.controller using Guid(731bb7e78449b384f9fd80bd36c9149d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'de6751d466a4e35b0d3acc90362f0031') in 0.019015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/grass_19 (12).controller
+  artifactKey: Guid(25f3209e9f34a1944a5908960963f07e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/grass_19 (12).controller using Guid(25f3209e9f34a1944a5908960963f07e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'db30edf6b2e98a8340624a8c63ef4820') in 0.017742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/bark2liana4.anim
+  artifactKey: Guid(f7420059491657040ae4fca962571cfd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/bark2liana4.anim using Guid(f7420059491657040ae4fca962571cfd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b1f6704a98b41f11a5eabe23eee0cd39') in 0.011697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/barkLiana2.anim
+  artifactKey: Guid(96ae333dd1a049a4ba5660fd40b40872) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/barkLiana2.anim using Guid(96ae333dd1a049a4ba5660fd40b40872) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1ab89e1bdc4740efe8200c8169637399') in 0.010042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/2_0.controller
+  artifactKey: Guid(89ea855997a5f484796ec16abee7c5ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/2_0.controller using Guid(89ea855997a5f484796ec16abee7c5ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a12a27ccb7cf8ba84d9cfba5bc4bd5a2') in 0.018814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Particles/Alpha material.mat
+  artifactKey: Guid(5510ed723c6a39a4aadfaeae02e62f93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Particles/Alpha material.mat using Guid(5510ed723c6a39a4aadfaeae02e62f93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '82c2b19afb934d08b66ddcd668812e7d') in 0.015375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/grass_5 (1).controller
+  artifactKey: Guid(0b54d4563b332994ebd70342e444cede) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/grass_5 (1).controller using Guid(0b54d4563b332994ebd70342e444cede) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a92232a7b63a6f510990e9fb889d73d7') in 0.018874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/grass_5 (2).controller
+  artifactKey: Guid(3c4597921d524804a8febbdcaa7347ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/grass_5 (2).controller using Guid(3c4597921d524804a8febbdcaa7347ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f94c36b9dc440df56284e963fe00ff47') in 0.018683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Particles/Add.mat
+  artifactKey: Guid(0fa36c2dfbe891a4fbb02775496e7382) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Particles/Add.mat using Guid(0fa36c2dfbe891a4fbb02775496e7382) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e0169b94f09cb256abc18fbca187af52') in 0.013813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/branch4.png
+  artifactKey: Guid(b79668168dcbbf04e8d588a204728707) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/branch4.png using Guid(b79668168dcbbf04e8d588a204728707) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6074f09bd87bebc263021bc811c34fc0') in 0.021761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+  artifactKey: Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader using Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a76413ba1f27eb7519553b313ceda2e6') in 0.012494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/palm6.anim
+  artifactKey: Guid(eba711fe0c930a646a5548a9809290f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/palm6.anim using Guid(eba711fe0c930a646a5548a9809290f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1d455c069f2d7d31c0afd9266a92953f') in 0.010752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/Point light 15.controller
+  artifactKey: Guid(0cba445f69435c24da9239ba3065df76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/Point light 15.controller using Guid(0cba445f69435c24da9239ba3065df76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd44bdd6145aeeb4ab59f287119243fa4') in 0.013382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/Point light 10.controller
+  artifactKey: Guid(dfa8ae15aeff5bd47bc780b8958c200a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/Point light 10.controller using Guid(dfa8ae15aeff5bd47bc780b8958c200a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '762e5af2d247fbf2f2a3560224cc8c6c') in 0.018059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/liana6.anim
+  artifactKey: Guid(6b741a4bf3a60c64c8717e71d1a769a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/liana6.anim using Guid(6b741a4bf3a60c64c8717e71d1a769a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '84d2f58af871731cb05fc96daee4757c') in 0.011329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/Spotlight.controller
+  artifactKey: Guid(405e1a6f28d1410448d8a240f692b572) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/Spotlight.controller using Guid(405e1a6f28d1410448d8a240f692b572) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '62f09a995a17ce5e852a7bb83b79efe7') in 0.013353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/sill3.anim
+  artifactKey: Guid(61cf6b06be7ee6944b846cb8ad1fbf09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/sill3.anim using Guid(61cf6b06be7ee6944b846cb8ad1fbf09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '47ede2ba19cfc6fc61a1678f0030b8e4') in 0.016820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/Liana3.anim
+  artifactKey: Guid(e3f30b3a78bae174eb3c623ca32a8922) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/Liana3.anim using Guid(e3f30b3a78bae174eb3c623ca32a8922) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9d9d39d83589415a839511657c637454') in 0.009538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/monkeyGrass5.anim
+  artifactKey: Guid(a6b578735e0fb4148aa8c7419c510f6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/monkeyGrass5.anim using Guid(a6b578735e0fb4148aa8c7419c510f6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9b86e006bf8e06bfdc0f037a95aa135b') in 0.011654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/Liana5.anim
+  artifactKey: Guid(a4991da0855033340b098e76a470f6db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/Liana5.anim using Guid(a4991da0855033340b098e76a470f6db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b956c14e4a4cb7cd6ca17ea968debdf2') in 0.015446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/Palm4.controller
+  artifactKey: Guid(9f43c59971b5cbe409131460520d0ced) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/Palm4.controller using Guid(9f43c59971b5cbe409131460520d0ced) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6332b83da6b3814a74eea0f1a1c4cae8') in 0.018678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/Palm4.anim
+  artifactKey: Guid(81c87852434b0fa45a9b38f87d4cc97a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/Palm4.anim using Guid(81c87852434b0fa45a9b38f87d4cc97a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4eb7a615ff39c4a23a6b1d979a2e0615') in 0.015573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/tr1gr4.anim
+  artifactKey: Guid(f6719b8fec8e8484c8d89f48d458ce72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/tr1gr4.anim using Guid(f6719b8fec8e8484c8d89f48d458ce72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0ff944d510ba5808ecb673e8b274a781') in 0.011633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/tr2gr3.anim
+  artifactKey: Guid(ef794d5f9b5d3904196f17a05e97b9cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/tr2gr3.anim using Guid(ef794d5f9b5d3904196f17a05e97b9cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '10160c61c7eefc1fc71927eb8ded61d3') in 0.009197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/Palm3.anim
+  artifactKey: Guid(7b60df88e44577e4ca83f4bbe4983496) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/Palm3.anim using Guid(7b60df88e44577e4ca83f4bbe4983496) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd02bee8be60726a209007a33bd587703') in 0.010317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/grBot6.anim
+  artifactKey: Guid(c35f5f5fecf602c4eb9ea6919889827c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/grBot6.anim using Guid(c35f5f5fecf602c4eb9ea6919889827c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3721617ae140b92e23896a0dbe48a1eb') in 0.009735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/Sill1.anim
+  artifactKey: Guid(2e3324e6ca9290648b9d890d2ff00cbc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/Sill1.anim using Guid(2e3324e6ca9290648b9d890d2ff00cbc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ef826b9f1be55b96bbe110fe7cabfc93') in 0.018142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/Point light 1.controller
+  artifactKey: Guid(6217c8c6d2d91904d99d16f63bba52d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/Point light 1.controller using Guid(6217c8c6d2d91904d99d16f63bba52d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6cc7e34398efb0b91166bcccf3f2484d') in 0.013644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/liana1.controller
+  artifactKey: Guid(03356ea9c6e9ccb42a1f23ff0977e4d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/liana1.controller using Guid(03356ea9c6e9ccb42a1f23ff0977e4d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c55939ad350fb211e524e2be125cca1e') in 0.013727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/grBot8.anim
+  artifactKey: Guid(b53f6285c34c28140904c9aa894836c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/grBot8.anim using Guid(b53f6285c34c28140904c9aa894836c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9506652e5f0fe99c3abedd6c02cf3075') in 0.012113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/grBot4.anim
+  artifactKey: Guid(4b50a45ad023d2c4182d07b825714c80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/grBot4.anim using Guid(4b50a45ad023d2c4182d07b825714c80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3f826af676bf798f2363623b6a6a5b33') in 0.009850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/Point light 7.controller
+  artifactKey: Guid(d779b51b182034346935fdf5389b31c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/Point light 7.controller using Guid(d779b51b182034346935fdf5389b31c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '65dde29cad1258837ebd385748b0c82e') in 0.015211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/Point light 9.controller
+  artifactKey: Guid(705fc8e20387f454aa17b6b532d19ecb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Animation/Point light 9.controller using Guid(705fc8e20387f454aa17b6b532d19ecb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7eff01154b56c8de16baabdb1d2b28d0') in 0.014683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/flower5.png
+  artifactKey: Guid(ae8b1a4816fae7e4b80218fd0da99496) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/flower5.png using Guid(ae8b1a4816fae7e4b80218fd0da99496) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2635eeb5af4378a03598e62f9e25c69e') in 0.020022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/moon1.png
+  artifactKey: Guid(6a1e2f693a368ca4cb16160e95b62076) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Art/moon1.png using Guid(6a1e2f693a368ca4cb16160e95b62076) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '44966af8dfc7cb21256428b557bdfa12') in 0.020434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.029392 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Sprite/1.png
+  artifactKey: Guid(66e56e4315aaabd49b38cfec8a9dddf5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Sprite/1.png using Guid(66e56e4315aaabd49b38cfec8a9dddf5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '52161ef1bd7c9195a7bb8407131f242f') in 0.108139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Prefabs/Platforms/Lodge.prefab
+  artifactKey: Guid(9a3786b1a41d2fe459f56a928e23aeed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Prefabs/Platforms/Lodge.prefab using Guid(9a3786b1a41d2fe459f56a928e23aeed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3a788cd03c575e7a3b822805b02a52e3') in 0.022469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Particles/Materials/Dust.mat
+  artifactKey: Guid(624b98c6e3625554085643f81b45c91f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Particles/Materials/Dust.mat using Guid(624b98c6e3625554085643f81b45c91f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5c18bdf1467f2a6d2fd8a3e60ead62f4') in 0.020520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Prefabs/Platforms/leaf-platform.prefab
+  artifactKey: Guid(01631d9c2c00d294fa20e3ac7135bc8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Prefabs/Platforms/leaf-platform.prefab using Guid(01631d9c2c00d294fa20e3ac7135bc8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7ecfe0f34999c0062d914ebbca055f30') in 0.022898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Prefabs/Platforms/PlatformBigMidGrey.prefab
+  artifactKey: Guid(92e60661891e77544848658604631b7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Prefabs/Platforms/PlatformBigMidGrey.prefab using Guid(92e60661891e77544848658604631b7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '61aae47464d3a29c5ff2d4cad63b5856') in 0.022721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a2318d8ca13e4f2f4045c52453c45ffc') in 0.021401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Particles/_Prefabs/Sun Shafts.prefab
+  artifactKey: Guid(6a4a86a43eeda814ca70ecb8f3d325c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Particles/_Prefabs/Sun Shafts.prefab using Guid(6a4a86a43eeda814ca70ecb8f3d325c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2e2ee78b41e0fea2292e147bcdb79799') in 0.071427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+  artifactKey: Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset using Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ebcb2455103d56b347d0c5ff36823804') in 0.013734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/@PaulosCreations/RoyalUI/Volume_1/4K/Stone-GreenP_4k.png
+  artifactKey: Guid(e695a6737f288ac4eae8d2ca61bce72e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/@PaulosCreations/RoyalUI/Volume_1/4K/Stone-GreenP_4k.png using Guid(e695a6737f288ac4eae8d2ca61bce72e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8b2a0632572c4660645e3826790b9586') in 0.087137 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
