@@ -384,6 +384,7 @@
 "Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Script/PlayerController.cs"
 "Assets/Jungle Pack - 2D Handcrafted Art/Version 1.0/Script/PlayerControlUnity.cs"
 "Assets/Scripts/ButtonLanguage.cs"
+"Assets/Scripts/CameraMovement.cs"
 "Assets/Scripts/Singleton.cs"
 -langversion:9.0
 
