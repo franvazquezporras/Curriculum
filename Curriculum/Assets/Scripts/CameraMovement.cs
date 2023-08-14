@@ -8,7 +8,6 @@ public class CameraMovement : MonoBehaviour
     public Vector2 maxXLimits = new Vector2(-2f, 2f);
     public Vector2 maxYLimits = new Vector2(-1f, 2f);
     private Vector3 velocity = Vector3.zero;
-
     void Update()
     {
         Vector3 cursorPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);

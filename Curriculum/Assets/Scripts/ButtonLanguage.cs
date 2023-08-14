@@ -7,7 +7,9 @@ using UnityEngine.Localization.Settings;
 public class ButtonLanguage : MonoBehaviour
 {
     private bool active = false;
-   public void ChangeLocale(int localID)
+
+    [SerializeField] private GameObject languages;
+    public void ChangeLocale(int localID)
     {
         if (active)
             return;
@@ -20,5 +22,6 @@ public class ButtonLanguage : MonoBehaviour
         yield return LocalizationSettings.InitializationOperation;
         LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[_localID];
         active = false;
+        languages.SetActive(false);
     }
 }
