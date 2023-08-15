@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/MainMenu.unity
+- path: Assets/Jungle Pack - 2D Handcrafted Art/Version 2.0/Scene/Jungle.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
