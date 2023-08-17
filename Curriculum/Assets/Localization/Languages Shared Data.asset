@@ -27,6 +27,22 @@ MonoBehaviour:
     m_Key: LanguageEnglishButton
     m_Metadata:
       m_Items: []
+  - m_Id: 1741109884805120
+    m_Key: StudiesTextArea
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1761203486646272
+    m_Key: ExperiencesTextArea
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1761409217257472
+    m_Key: LinksArea
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1761820317769728
+    m_Key: ZonePruebasAreas
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

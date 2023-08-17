@@ -30,6 +30,22 @@ MonoBehaviour:
     m_Localized: "Ingl\xE9s"
     m_Metadata:
       m_Items: []
+  - m_Id: 1741109884805120
+    m_Localized: Estudios
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1761203486646272
+    m_Localized: Experiencia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1761409217257472
+    m_Localized: Enlaces
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1761820317769728
+    m_Localized: Mas sobre mi trabajo
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
