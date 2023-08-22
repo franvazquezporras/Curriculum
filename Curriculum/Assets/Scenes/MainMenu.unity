@@ -1845,7 +1845,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 224360517}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 681121405}
+        m_TargetAssemblyTypeName: LinksWeb, Assembly-CSharp
+        m_MethodName: LinksButton
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: https://zetaka.itch.io/
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &224360517
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3498,8 +3510,9 @@ GameObject:
   - component: {fileID: 681121402}
   - component: {fileID: 681121401}
   - component: {fileID: 681121400}
+  - component: {fileID: 681121405}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: LinksWeb
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3612,6 +3625,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &681121405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 681121399}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65e8b271eec9d4f4fa3b6ba46e329f51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &685800270 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 490288, guid: 11f926089a397c94c82e74b3e88c4964, type: 3}
@@ -3875,7 +3900,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 863298406}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 681121405}
+        m_TargetAssemblyTypeName: LinksWeb, Assembly-CSharp
+        m_MethodName: LinksButton
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: https://www.linkedin.com/in/francisco-javier-v%C3%A1zquez-porras-0386a8125/
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &863298406
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5342,7 +5379,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1109749859}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 681121405}
+        m_TargetAssemblyTypeName: LinksWeb, Assembly-CSharp
+        m_MethodName: LinksButton
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: https://github.com/franvazquezporras
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1109749859
 MonoBehaviour:
   m_ObjectHideFlags: 0
