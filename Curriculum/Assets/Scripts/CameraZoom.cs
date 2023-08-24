@@ -41,7 +41,6 @@ public class CameraZoom : MonoBehaviour
 
             // Aplicar el nuevo valor del campo de visión a la cámara
             mainCamera.fieldOfView = currentFieldOfView;
-
             if (Mathf.Approximately(currentFieldOfView, newFieldOfView)) // Detener el zoom cuando se alcance el campo de visión objetivo
             {
                 isZooming = false;
