@@ -6,7 +6,6 @@ using UnityEngine.SceneManagement;
 
 public class ButtonsMenu : MonoBehaviour
 {
-    [SerializeField] private GameObject item;
     [SerializeField] private Light lightArea;
     private bool animationInProgress = false;
     private float initialIntensity;
@@ -36,7 +35,7 @@ public class ButtonsMenu : MonoBehaviour
                     StartCoroutine(ChangeLightPropertiesOverTime("experience"));
                     break;
                 case "links":
-                    LoadInThisScene(item);
+                    StartCoroutine(ChangeLightPropertiesOverTime("links"));
                     break;
             }
         }
@@ -44,16 +43,12 @@ public class ButtonsMenu : MonoBehaviour
     private void ChangeInteractableButtons()
     {
         foreach(Button button in buttons)
-        {
+        {            
             if (button.interactable)
                 button.interactable = false;
             else
                 button.interactable = true;
         }
-    }
-    private void LoadInThisScene(GameObject itemToLoad)
-    {
-        itemToLoad.SetActive(true);
     }
 
     private IEnumerator ChangeLightPropertiesOverTime(string scene)

@@ -43,6 +43,10 @@ MonoBehaviour:
     m_Key: ZonePruebasAreas
     m_Metadata:
       m_Items: []
+  - m_Id: 4901548336537600
+    m_Key: BackButton
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

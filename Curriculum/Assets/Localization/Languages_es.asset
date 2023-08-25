@@ -43,7 +43,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1761820317769728
-    m_Localized: Mas sobre mi trabajo
+    m_Localized: "M\xE1s..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4901548336537600
+    m_Localized: "Atr\xE1s"
     m_Metadata:
       m_Items: []
   references:
