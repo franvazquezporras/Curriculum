@@ -11,6 +11,7 @@ public class ButtonsMenu : MonoBehaviour
     private float initialIntensity;
     private float initialRange;
     [SerializeField] private Button[] buttons;
+    [SerializeField] private AudioSource audioSource;
     private void Start()
     {
         if(lightArea != null)
@@ -38,7 +39,9 @@ public class ButtonsMenu : MonoBehaviour
                     StartCoroutine(ChangeLightPropertiesOverTime("links"));
                     break;
             }
+            audioSource.Play();
         }
+
     }
     private void ChangeInteractableButtons()
     {
