@@ -12,11 +12,11 @@ EditorBuildSettings:
     path: Assets/Scenes/Studies.unity
     guid: 8480edaa82001c1448ee4930bd187f99
   - enabled: 1
-    path: Assets/Scenes/Experience.unity
-    guid: 9e769d431e392ef44ad723eba1e3d7f8
-  - enabled: 1
     path: Assets/Scenes/Links.unity
     guid: b05d1973badecfb4e92665162f5cd267
+  - enabled: 1
+    path: Assets/Scenes/Experience.unity
+    guid: b33b6801aeafa534b9b6c702b93fd0d7
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: 688d6be27049fb940beb728fe2033314, type: 2}
     com.unity.localization.settings: {fileID: 11400000, guid: da16171ff46e07545b0c55f7ff76019f, type: 2}
