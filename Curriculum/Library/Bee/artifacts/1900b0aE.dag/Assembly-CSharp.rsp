@@ -385,6 +385,7 @@
 "Assets/Scripts/LanguageSave.cs"
 "Assets/Scripts/LinksWeb.cs"
 "Assets/Scripts/Singleton.cs"
+"Assets/Scripts/swipe.cs"
 -langversion:9.0
 
 /deterministic
