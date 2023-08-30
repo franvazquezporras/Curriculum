@@ -50,6 +50,207 @@ MonoBehaviour:
     m_Localized: "Atr\xE1s"
     m_Metadata:
       m_Items: []
+  - m_Id: 6486211014352896
+    m_Localized: "Descripci\xF3n:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6486548886511616
+    m_Localized: 'Herramientas:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6486654998208512
+    m_Localized: 'Programador de videojuegos
+
+      Wild Alchemist'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6486801593327616
+    m_Localized: Mayo 2023 - Actualidad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6487231278800896
+    m_Localized: '-Unity
+
+      -Trello
+
+      -GitHub'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6487348006281216
+    m_Localized: "-Programaci\xF3n de IA\r\n-Programaci\xF3n y creaci\xF3n de UI
+      con Canvas\r\n-Programaci\xF3n de mecanicas de juego diversas\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6487682111954944
+    m_Localized: 'Programador Junior Unity
+
+      Mechanic Games'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6653671583703040
+    m_Localized: Febrero 2023 - Mayo 2023
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6654300502810624
+    m_Localized: '-Unity
+
+      -Postman
+
+      -Github'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6654446175182848
+    m_Localized: "-Programaci\xF3n y creacion de UI con UIToolkit\n-Programaci\xF3n
+      de mecanicas de plataformas\n-Programaci\xF3n Background Parallax\n-Creaci\xF3n
+      de DTO"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6656730867097600
+    m_Localized: 'QA Tester
+
+      Vitro S.A'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6656898488262656
+    m_Localized: Julio 2021 - Mayo 2022
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6658437202239488
+    m_Localized: '-Jira
+
+      -Selenium ( 1 mes)
+
+      -Jenkins ( 1 mes)
+
+      -Jmeter
+      ( 1 mes)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6659332321239040
+    m_Localized: "-Documentaci\xF3n de pruebas manuales\n-Ejecuci\xF3n de pruebas
+      manuales\n-Reporte y control de errores\n-Ejecuci\xF3n de pruebas de carga
+      con Jmeter (1 mes)\n-Documentaci\xF3n de pruebas automaticas con Selenium (1
+      mes)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6659551029026816
+    m_Localized: 'Junior QA
+
+      Everis (NTTData)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6660185308454912
+    m_Localized: Enero 2020 - Julio 2021
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6660309698928640
+    m_Localized: '-Jira
+
+      -Testlink ( 8 meses)
+
+      -HPQC ( 8 meses)
+
+      -ALM
+      Octane ( 1 mes)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6660432168411136
+    m_Localized: "-Documentaci\xF3n de pruebas manuales\n-Ejecuci\xF3n de pruebas
+      manuales\n-Reporte y control de errores del software"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6660627409068032
+    m_Localized: 'Programador Backend Java
+
+      Everis (NTTData)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6675750680977408
+    m_Localized: Septiembre 2019 - Noviembre 2019
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6675847695228928
+    m_Localized: '-NetBeans Java
+
+      -SQL Oracle
+
+      -Postman ( 2 meses)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6675943262445568
+    m_Localized: "-Programaci\xF3n Backend con Spring Java\n-Base de datos con SQL
+      Oracle\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6679211510259712
+    m_Localized: "T\xE9cnico inform\xE1tico\nProci S.A"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6679432768184320
+    m_Localized: Marzo 2015 - Junio 2015
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6679532466790400
+    m_Localized: '-Paquete Office
+
+      -Wireshark'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6679636028350464
+    m_Localized: "-Montaje y mantenimiento de equipos inform\xE1ticos\r\n-Mantenimiento
+      de redes de la empresa\r\n-Mantenimiento del servidor\r\n-Instalaci\xF3n de
+      Sistemas Operativos"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6679797660049408
+    m_Localized: 'Administrativo
+
+      Ayto. Gines'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6683709205045248
+    m_Localized: Agosto 2018 - Agosto 2019
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6683816323375104
+    m_Localized: '-Paquete Office
+
+      -Canvas'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6683921499742208
+    m_Localized: "-Planificacion,coordinaci\xF3n y seguimiento de actividades dirigidas
+      a jovenes y adultos\n-Gesti\xF3n de documentaci\xF3n en colaboraci\xF3n con
+      Guadalinfo\n-Monitorizaci\xF3n de actividades del centro Joven\n-Gesti\xF3n
+      de presupuesto para actividades de exterior y viajes\n-Dise\xF1o de carteles
+      para actividades y eventos"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6684159534882816
+    m_Localized: 'Monitor de tiempo libre
+
+      Ayto. Gines'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6685450352910336
+    m_Localized: Julio 2017 - Enero 2018
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6685575989092352
+    m_Localized: '-Paquete Office
+
+      -Canvas
+
+      -Drive'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6685743031443456
+    m_Localized: "-Monitorizaci\xF3n de actividades y viajes\n-Monitorizaci\xF3n
+      de talleres para colectivo discapacitado y para jovenes\n-Creaci\xF3n y Gesti\xF3n
+      de talleres de danza y musicoterapia\n-Gesti\xF3n administrativa del departamento
+      de juventud"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

@@ -50,6 +50,235 @@ MonoBehaviour:
     m_Localized: Back
     m_Metadata:
       m_Items: []
+  - m_Id: 6486211014352896
+    m_Localized: 'Description:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6486548886511616
+    m_Localized: 'Tools:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6486654998208512
+    m_Localized: 'Videogames Programmer
+
+      Wild Alchemist'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6486801593327616
+    m_Localized: May 2023 - Actually
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6487231278800896
+    m_Localized: '-Unity
+
+      -Trello
+
+      -GitHub'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6487348006281216
+    m_Localized: '-AI Programming
+
+      -UI Programming and Creation with Canvas
+
+      -Programming
+      of Various Game Mechanics'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6487682111954944
+    m_Localized: 'Junior Unity Programmer
+
+      Mechanic Games'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6653671583703040
+    m_Localized: February 2023 - May 2023
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6654300502810624
+    m_Localized: '-Unity
+
+      -Postman
+
+      -Github'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6654446175182848
+    m_Localized: "\r-Programming and creating UI with UIToolkit\r\n-Platform mechanics
+      programming.\r\n-Background parallax programming\r\n-Creation of DTO"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6656730867097600
+    m_Localized: 'QA Tester
+
+      Vitro S.A'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6656898488262656
+    m_Localized: July 2021 - May 2022
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6658437202239488
+    m_Localized: '-Jira
+
+      -Selenium ( 1 months)
+
+      -Jenkins ( 1 months)
+
+      -Jmeter
+      ( 1 months)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6659332321239040
+    m_Localized: '-Manual testing documentation
+
+      -Execution of manual tests
+
+      -Error
+      reporting and control
+
+      -Execution of load tests with Jmeter (1 month)
+
+      -Documentation
+      of automatic tests with Selenium (1 month)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6659551029026816
+    m_Localized: 'Junior QA
+
+      Everis (NTTData)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6660185308454912
+    m_Localized: January 2020 - July 2021
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6660309698928640
+    m_Localized: '-Jira
+
+      -Testlink ( 8 months)
+
+      -HPQC ( 8 months)
+
+      -ALM
+      Octane ( 1 months)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6660432168411136
+    m_Localized: '-Manual testing documentation
+
+      -Execution of manual tests
+
+      -Report
+      and control of software errors'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6660627409068032
+    m_Localized: 'Java Backend Developer
+
+      Everis (NTTData)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6675750680977408
+    m_Localized: September 2019 - November 2019
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6675847695228928
+    m_Localized: '-NetBeans Java
+
+      -SQL Oracle
+
+      -Postman ( 2 months)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6675943262445568
+    m_Localized: '-Backend programming with Spring Java
+
+      -Database with SQL
+      Oracle'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6679211510259712
+    m_Localized: 'Computer technician
+
+      Proci S.A'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6679432768184320
+    m_Localized: March  2015 - June 2015
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6679532466790400
+    m_Localized: '-Office Package
+
+      -Wireshark'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6679636028350464
+    m_Localized: '-Assembly and maintenance of computer equipment
+
+      -Maintenance
+      of company networks
+
+      -Server maintenance
+
+      -Installation of Operating
+      Systems'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6679797660049408
+    m_Localized: 'Administrative
+
+      Ayto. Gines'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6683709205045248
+    m_Localized: "\rAugust 2018 - August 2019"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6683816323375104
+    m_Localized: '-Office Package
+
+      -Canvas'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6683921499742208
+    m_Localized: '-Planning, coordination and monitoring of activities aimed at young
+      people and adults
+
+      -Documentation management in collaboration with Guadalinfo
+
+      -Monitoring
+      activities of the Youth Center
+
+      -Budget management for outdoor activities
+      and trips
+
+      -Design of posters for activities and events'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6684159534882816
+    m_Localized: "\rFree time monitor\r\nAyto. Gines"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6685450352910336
+    m_Localized: July 2017 - January 2018
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6685575989092352
+    m_Localized: '-Office Package
+
+      -Canvas
+
+      -Drive'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6685743031443456
+    m_Localized: "\r-Monitoring of activities and trips\r\n-Monitoring of workshops
+      for disabled groups and for young people\r\n-Creation and Management of dance
+      and music therapy workshops\r\n-Administrative management of the youth department"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
