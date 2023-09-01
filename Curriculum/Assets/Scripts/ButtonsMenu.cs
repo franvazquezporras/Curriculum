@@ -12,6 +12,7 @@ public class ButtonsMenu : MonoBehaviour
     private float initialRange;
     [SerializeField] private Button[] buttons;
     [SerializeField] private AudioSource audioSource;
+    [SerializeField] private Animator animLinks;
     private void Start()
     {
         if(lightArea != null)
@@ -62,7 +63,7 @@ public class ButtonsMenu : MonoBehaviour
         float startTime = Time.time;
         float targetIntensity = initialIntensity * 50.0f;
         float targetRange = initialRange * 100.0f;
-
+        animLinks.SetBool("exit", true);
         while (Time.time - startTime < duration)
         {
             float elapsedRatio = (Time.time - startTime) / duration;
