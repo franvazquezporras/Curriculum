@@ -5640,7 +5640,7 @@ MonoBehaviour:
   - {fileID: 1068950806}
   - {fileID: 1002268490}
   audioSource: {fileID: 1120482210}
-  animLinks: {fileID: 0}
+  animLinks: {fileID: 681121400}
 --- !u!82 &1120482210
 AudioSource:
   m_ObjectHideFlags: 0
@@ -6174,6 +6174,7 @@ GameObject:
   - component: {fileID: 1217961111}
   - component: {fileID: 1217961110}
   - component: {fileID: 1217961109}
+  - component: {fileID: 1217961112}
   m_Layer: 5
   m_Name: BSound
   m_TagString: Untagged
@@ -6245,7 +6246,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1217961110}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1217961112}
+        m_TargetAssemblyTypeName: ButtonMute, Assembly-CSharp
+        m_MethodName: ToggleSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1217961110
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6284,6 +6297,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1217961107}
   m_CullTransparentMesh: 1
+--- !u!114 &1217961112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217961107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd7ab1a2065c5744eb33e19818d9f3e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onButton: {fileID: 21300040, guid: e695a6737f288ac4eae8d2ca61bce72e, type: 3}
+  offButton: {fileID: 21300042, guid: e695a6737f288ac4eae8d2ca61bce72e, type: 3}
+  audioMixer: {fileID: 24100000, guid: c4fdae9636f7de54094cbc4e84827484, type: 2}
 --- !u!1 &1223672330
 GameObject:
   m_ObjectHideFlags: 0
@@ -6825,6 +6853,7 @@ GameObject:
   - component: {fileID: 1348313365}
   - component: {fileID: 1348313364}
   - component: {fileID: 1348313363}
+  - component: {fileID: 1348313366}
   m_Layer: 5
   m_Name: BMusic
   m_TagString: Untagged
@@ -6896,7 +6925,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1348313364}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1348313366}
+        m_TargetAssemblyTypeName: ButtonMute, Assembly-CSharp
+        m_MethodName: ToggleMusic
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1348313364
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6935,6 +6976,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1348313361}
   m_CullTransparentMesh: 1
+--- !u!114 &1348313366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1348313361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd7ab1a2065c5744eb33e19818d9f3e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onButton: {fileID: 21300040, guid: e695a6737f288ac4eae8d2ca61bce72e, type: 3}
+  offButton: {fileID: 21300042, guid: e695a6737f288ac4eae8d2ca61bce72e, type: 3}
+  audioMixer: {fileID: 24100000, guid: c4fdae9636f7de54094cbc4e84827484, type: 2}
 --- !u!1 &1352348413
 GameObject:
   m_ObjectHideFlags: 0
@@ -8990,7 +9046,7 @@ MonoBehaviour:
   - {fileID: 1068950806}
   - {fileID: 1002268490}
   audioSource: {fileID: 1120482210}
-  animLinks: {fileID: 0}
+  animLinks: {fileID: 681121400}
 --- !u!82 &1698808013
 AudioSource:
   m_ObjectHideFlags: 0
@@ -10118,9 +10174,10 @@ GameObject:
   - component: {fileID: 1919858866}
   - component: {fileID: 1919858869}
   - component: {fileID: 1919858868}
+  - component: {fileID: 1919858870}
   m_Layer: 0
   m_Name: Manager
-  m_TagString: Untagged
+  m_TagString: GameController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10261,6 +10318,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d47955c16c67ddc4bbd2d515ca2afcec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1919858870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1919858865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53d59b3ee28e76c40bd9124f12f41eb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isMusicMuted: 0
+  isSoundMuted: 0
 --- !u!1 &1921489673
 GameObject:
   m_ObjectHideFlags: 0
