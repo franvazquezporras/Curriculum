@@ -279,6 +279,59 @@ MonoBehaviour:
       and music therapy workshops\r\n-Administrative management of the youth department"
     m_Metadata:
       m_Items: []
+  - m_Id: 8161355462008832
+    m_Localized: 'Master in video game programming with Unity
+
+      TokyoSchool'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8172629642108928
+    m_Localized: October 2020 - October 2022
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8173008094158848
+    m_Localized: '-Scripting with VisualStudio C# language
+
+      -Use and creation
+      of prefabs in Unity
+
+      -Use of cameras in Unity
+
+      -Use of lights
+      and sound
+
+      -UI user interface design with Canvas and UIToolkit
+
+      -Localization
+      tool
+
+      -Map design with tilemap (2D) and terrain (3D)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8189940511989760
+    m_Localized: 'Master in video game programming with Unreal
+
+      TokyoSchool'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8190092979134464
+    m_Localized: October 2020 - October 2022
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8190167419641856
+    m_Localized: '-Interface design
+
+      -Management of assets (3D models, textures,
+      sounds...)
+
+      -Level design
+
+      -Programming through Blueprints
+
+      -Control
+      of Lights and Physics'
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

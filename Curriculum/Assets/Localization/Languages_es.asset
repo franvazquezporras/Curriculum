@@ -251,6 +251,35 @@ MonoBehaviour:
       de juventud"
     m_Metadata:
       m_Items: []
+  - m_Id: 8161355462008832
+    m_Localized: "M\xE1ster en programaci\xF3n de videojuegos con Unity\nTokioSchool"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8172629642108928
+    m_Localized: Octubre 2020 - Octubre 2022
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8173008094158848
+    m_Localized: "-Scripting con VisualStudio lenguaje C#\n-Uso y creaci\xF3n de
+      prefabs en Unity\n-Uso de c\xE1maras  en Unity\n-Uso de luces y sonido \n-Dise\xF1o
+      de interfaces de usuario UI con Canvas y UIToolkit\n-Localization tool\n-Dise\xF1o
+      de mapas con tilemap (2D) y terrain (3D)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8189940511989760
+    m_Localized: "M\xE1ster en programaci\xF3n de videojuegos con Unreal\nTokioSchool"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8190092979134464
+    m_Localized: Octubre 2020 - Octubre 2022
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8190167419641856
+    m_Localized: "-Dise\xF1o de interfaces\n-Manejo de assets (modelos 3D, texturas,
+      sonidos...)\n-Dise\xF1o de niveles\n-Programaci\xF3n mediante Blueprints\n-Control
+      de Luces y F\xEDsicas"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
