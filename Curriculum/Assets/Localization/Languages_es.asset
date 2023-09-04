@@ -280,6 +280,96 @@ MonoBehaviour:
       de Luces y F\xEDsicas"
     m_Metadata:
       m_Items: []
+  - m_Id: 8253873239285760
+    m_Localized: 'Desarrollo de aplicaciones multiplataforma
+
+      IES Majuelo'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8253914821615616
+    m_Localized: Septiembre 2016 - Junio 2019
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8254044568215552
+    m_Localized: "-Base de datos con MySQL\n-Programaci\xF3n C\n-Programaci\xF3n
+      Java\n-Programaci\xF3n C#\n-Programaci\xF3n Android\n-Lenguaje de marcas (UXML,HTML,CSS,Javascript)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8258358732840960
+    m_Localized: "Programaci\xF3n Java SE 8\nCoreNetwork"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8258451439542272
+    m_Localized: Noviembre 2016 -Diciembre 2016
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8258500529676288
+    m_Localized: "-Programaci\xF3n Java SE8\n-Fundamentos de programaci\xF3n Java\n-Analisis
+      y dise\xF1o orientado a objetos  con UML"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8260976318275584
+    m_Localized: 'Desarrollo Web, Projecto Generation
+
+      EOI & McKinsey '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8261006869585920
+    m_Localized: Junio 2016 - Octubre 2016
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8261041229324288
+    m_Localized: '-HTML5
+
+      -CSS3
+
+      -Angularjs
+
+      -Javascript
+
+      -PHP'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8263457890820096
+    m_Localized: "-Sistemas microinformaticos\n-Redes y servidores\n-Mantenimiento
+      Hardware\n-Desarrollo de p\xE1ginas web\n-Paquete office\n-Certificacion Cisco"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8263389729185792
+    m_Localized: "T\xE9cnico en Sistemas microinformaticos y redes\nIES Alixar"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8263420473434112
+    m_Localized: Septiembre 2013 - Junio 2015
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8265804230615040
+    m_Localized: "Monitor de tiempo libre para colectivos espec\xEDficos\nAyto. Gines"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8266127775031296
+    m_Localized: Marzo 2013 - Mayo 2013
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8266167620919296
+    m_Localized: "-Programaci\xF3n de actividades para colectivos espec\xEDficos\n-Desarrollo
+      y evaluacion de actividades socioeducativas\n-Dinamizar proyectos de animaci\xF3n
+      socioeducativas\n-Desarrollo de acciones de comunicaci\xF3n y marketing socioeducativas"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8273471917449216
+    m_Localized: "Paquete Office y Programaci\xF3n Java\nInfosur"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8273512279236608
+    m_Localized: Febrero 2013 -Agosto 2014
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8273540574011392
+    m_Localized: "-Paquete Microsoft Office\n-Programaci\xF3n Java (Conceptos basicos)\n-Programaci\xF3n
+      Java (Algoritmos)\n-HTML"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

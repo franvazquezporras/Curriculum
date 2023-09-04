@@ -297,8 +297,8 @@ MonoBehaviour:
 
       -Use of cameras in Unity
 
-      -Use of lights
-      and sound
+      -Use of lights and
+      sound
 
       -UI user interface design with Canvas and UIToolkit
 
@@ -330,6 +330,112 @@ MonoBehaviour:
 
       -Control
       of Lights and Physics'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8253873239285760
+    m_Localized: "\rCross-platform application development\r\nIES Majuelo"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8253914821615616
+    m_Localized: September 2016 - June 2019
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8254044568215552
+    m_Localized: "\r-Database with MySQL\r\n-C Programming\r\n-Java programming\r\n-C#
+      programming\r\n-Android programming\r\n-Mark language (UXML,HTML,CSS,Javascript)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8258358732840960
+    m_Localized: "\rJava SE 8 Programming\r\nCoreNetwork"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8258451439542272
+    m_Localized: November 2016 - December 2016
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8258500529676288
+    m_Localized: "\r-Java SE8 programming\r\n-Java programming fundamentals\r\n-Object-oriented
+      analysis and design with UML"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8260976318275584
+    m_Localized: "\rWeb Development, Generation Project\r\nEOI & McKinsey "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8261006869585920
+    m_Localized: June 2016 - October 2016
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8261041229324288
+    m_Localized: '-HTML5
+
+      -CSS3
+
+      -Angularjs
+
+      -Javascript
+
+      -PHP'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8263457890820096
+    m_Localized: '-Microcomputer systems
+
+      -Networks and servers
+
+      -Hardware
+      Maintenance
+
+      -Web page development
+
+      -Office package
+
+      -Cisco
+      Certification'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8263389729185792
+    m_Localized: 'Technician in microcomputer systems and networks
+
+      IES Alixar'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8263420473434112
+    m_Localized: September 2013 - June 2015
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8265804230615040
+    m_Localized: "\rFree time monitor for specific collective\r\nAyt\xF3. Gines"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8266127775031296
+    m_Localized: March 2013 - May 2013
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8266167620919296
+    m_Localized: '-Programming of activities for specific collective
+
+      -Development
+      and evaluation of socio-educational activities
+
+      -Energize socio-educational
+      animation projects
+
+      -Development of socio-educational communication
+      and marketing actions'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8273471917449216
+    m_Localized: "Office Package\r and Java Programming \nInfosur"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8273512279236608
+    m_Localized: February 2013 -August 2014
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8273540574011392
+    m_Localized: "\r-Microsoft Office Package\r\n-Java Programming (Basic Concepts)\r\n-Java
+      Programming (Algorithms)\r\n-HTML"
     m_Metadata:
       m_Items: []
   references:
