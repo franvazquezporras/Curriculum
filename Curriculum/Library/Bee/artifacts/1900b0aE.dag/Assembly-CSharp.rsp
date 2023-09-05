@@ -384,6 +384,7 @@
 "Assets/Scripts/ButtonsMenu.cs"
 "Assets/Scripts/CameraMovement.cs"
 "Assets/Scripts/CameraZoom.cs"
+"Assets/Scripts/CertificateManager.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/LanguageSave.cs"
 "Assets/Scripts/LinksWeb.cs"

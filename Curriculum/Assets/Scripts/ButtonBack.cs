@@ -9,4 +9,9 @@ public class ButtonBack : MonoBehaviour
     {
         SceneManager.LoadScene(scene);
     }
+
+    public void CloseItem(GameObject item)
+    {
+        item.SetActive(false);
+    }
 }
