@@ -618,7 +618,7 @@ GameObject:
   - component: {fileID: 29996494}
   - component: {fileID: 29996493}
   - component: {fileID: 29996492}
-  - component: {fileID: 29996491}
+  - component: {fileID: 29996495}
   m_Layer: 5
   m_Name: OpenWebinars
   m_TagString: Untagged
@@ -650,23 +650,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 350, y: 500}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &29996491
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 29996489}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e51730946afbb0d48b0603d66f84bd01, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  certificateSprites: []
-  certificateSprite: {fileID: 673635761}
-  certificatePanel: {fileID: 1143267030}
-  rightButton: {fileID: 233037168}
-  leftButton: {fileID: 209991383}
 --- !u!114 &29996492
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -711,9 +694,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 29996491}
-        m_TargetAssemblyTypeName: CertificateManager, Assembly-CSharp
-        m_MethodName: OpenCertificate
+      - m_Target: {fileID: 29996495}
+        m_TargetAssemblyTypeName: CertificatesButton, Assembly-CSharp
+        m_MethodName: LoadCertificate
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -761,6 +744,53 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 29996489}
   m_CullTransparentMesh: 1
+--- !u!114 &29996495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 29996489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b574b35f91b98244a6f590e5359ec8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  certificate:
+  - {fileID: 21300000, guid: f8ca6911b69151f4cbc9f8e3d43d09a0, type: 3}
+  - {fileID: 21300000, guid: 57231636827d8ad48b4f86d92411dcdb, type: 3}
+  - {fileID: 21300000, guid: 59bfc94ec4f150f4b8db4b20172d2545, type: 3}
+  - {fileID: 21300000, guid: db4889d0fd2cbda46ad89e66a5e41b3f, type: 3}
+  - {fileID: 21300000, guid: 65c3f05ef7d11274083fa65a169376e0, type: 3}
+  - {fileID: 21300000, guid: 3129cfc40bbfdfc40a173660357afe0b, type: 3}
+  - {fileID: 21300000, guid: f4d3262a356b1c647a506f318c491656, type: 3}
+  - {fileID: 21300000, guid: 65ef40b9ccfb49846a5f2b6c379b1c9b, type: 3}
+  - {fileID: 21300000, guid: a87d9d679277d1c4890eac0f2987d2bd, type: 3}
+  - {fileID: 21300000, guid: f9f272278be7c094db240725ef707862, type: 3}
+  - {fileID: 21300000, guid: 5a037e9d417d3d34fbb04ff18e54db67, type: 3}
+  - {fileID: 21300000, guid: 4068850c8138394439cd0200a69ea5a8, type: 3}
+  - {fileID: 21300000, guid: 6469e07605988c542932d0e15121de18, type: 3}
+  - {fileID: 21300000, guid: 429b462f4e24e4e4e84e6aa0a62091b7, type: 3}
+  - {fileID: 21300000, guid: c51bbeb8302efac40a66a720fb41676a, type: 3}
+  - {fileID: 21300000, guid: 531005750a567254b8b1bb08909e57a7, type: 3}
+  - {fileID: 21300000, guid: c0487d49a861d56499c2d0db851c7bee, type: 3}
+  - {fileID: 21300000, guid: e04d1326cc299ea4ca2a7dd81e68d153, type: 3}
+  - {fileID: 21300000, guid: 1c45773d813a90941afd6b8451955cde, type: 3}
+  - {fileID: 21300000, guid: 43c7192f5ecdc854885ac7c784a1ecc3, type: 3}
+  - {fileID: 21300000, guid: e0aa1a7d3881b9340be7b357e2aef30f, type: 3}
+  - {fileID: 21300000, guid: 50f0de477c4cc8343b75b54926a6b622, type: 3}
+  - {fileID: 21300000, guid: c8b5f041be5d6e94db620c6a4639172b, type: 3}
+  - {fileID: 21300000, guid: dccc6e4429cfead4a94f2f7c57714efa, type: 3}
+  - {fileID: 21300000, guid: c66d65cb49644834e9c51fa9ca5cb1ae, type: 3}
+  - {fileID: 21300000, guid: ae82e7cc1bb8c53488682022b0528246, type: 3}
+  - {fileID: 21300000, guid: 7c0992afba3be444b828eece189f82ed, type: 3}
+  - {fileID: 21300000, guid: 4e52efc666f3959408ba11d227e34675, type: 3}
+  - {fileID: 21300000, guid: 7d4cf62d0c7a37040a733a8518290879, type: 3}
+  - {fileID: 21300000, guid: 60d29f24c0ae2a946bf172e5eeda18a2, type: 3}
+  - {fileID: 21300000, guid: 780eef8fc3ba5db47a2574d80c31608d, type: 3}
+  - {fileID: 21300000, guid: f1170e553794252439ad3c2af4df10c1, type: 3}
+  - {fileID: 21300000, guid: 020b5a0d714bcf94e9d1741bf2279241, type: 3}
+  certificateManager: {fileID: 664283630}
 --- !u!1 &36964971
 GameObject:
   m_ObjectHideFlags: 0
@@ -850,8 +880,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 36964976}
-        m_TargetAssemblyTypeName: CertificateManager, Assembly-CSharp
-        m_MethodName: OpenCertificate
+        m_TargetAssemblyTypeName: CertificatesButton, Assembly-CSharp
+        m_MethodName: LoadCertificate
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -908,14 +938,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 36964971}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e51730946afbb0d48b0603d66f84bd01, type: 3}
+  m_Script: {fileID: 11500000, guid: 2b574b35f91b98244a6f590e5359ec8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  certificateSprites: []
-  certificateSprite: {fileID: 673635761}
-  certificatePanel: {fileID: 1143267030}
-  rightButton: {fileID: 233037168}
-  leftButton: {fileID: 209991383}
+  certificate:
+  - {fileID: 21300000, guid: cfea4086df50ac94d9d66d012506d6b7, type: 3}
+  certificateManager: {fileID: 664283630}
 --- !u!1 &51265738
 GameObject:
   m_ObjectHideFlags: 0
@@ -2044,7 +2072,7 @@ MonoBehaviour:
     m_TableReference:
       m_TableCollectionName: GUID:8976d5c9f29f5cb47bb2c9601ba0b5bd
     m_TableEntryReference:
-      m_KeyId: 8273512279236608
+      m_KeyId: 8998917411889152
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
@@ -2735,7 +2763,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 29996491}
+      - m_Target: {fileID: 664283630}
         m_TargetAssemblyTypeName: CertificateManager, Assembly-CSharp
         m_MethodName: BackOption
         m_Mode: 1
@@ -2952,7 +2980,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 29996491}
+      - m_Target: {fileID: 664283630}
         m_TargetAssemblyTypeName: CertificateManager, Assembly-CSharp
         m_MethodName: NextOption
         m_Mode: 1
@@ -4931,7 +4959,7 @@ MonoBehaviour:
     m_TableReference:
       m_TableCollectionName: GUID:8976d5c9f29f5cb47bb2c9601ba0b5bd
     m_TableEntryReference:
-      m_KeyId: 8273471917449216
+      m_KeyId: 8998736998096896
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
@@ -4975,7 +5003,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "M\xE1ster en Unity\nTokioSchool"
+  m_text: "Formaciones con Beca \nOpenwebinars"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5002,7 +5030,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 15.95
+  m_fontSize: 20
   m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -5503,6 +5531,7 @@ GameObject:
   - component: {fileID: 664283627}
   - component: {fileID: 664283629}
   - component: {fileID: 664283628}
+  - component: {fileID: 664283630}
   m_Layer: 5
   m_Name: Panel
   m_TagString: Untagged
@@ -5570,6 +5599,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 664283626}
   m_CullTransparentMesh: 1
+--- !u!114 &664283630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 664283626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e51730946afbb0d48b0603d66f84bd01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  certificateSprite: {fileID: 673635761}
+  certificatePanel: {fileID: 1143267030}
+  rightButton: {fileID: 233037168}
+  leftButton: {fileID: 209991383}
 --- !u!1 &666050883
 GameObject:
   m_ObjectHideFlags: 0
@@ -6783,8 +6828,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 762085447}
-        m_TargetAssemblyTypeName: CertificateManager, Assembly-CSharp
-        m_MethodName: OpenCertificate
+        m_TargetAssemblyTypeName: CertificatesButton, Assembly-CSharp
+        m_MethodName: LoadCertificate
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6865,14 +6910,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 762085442}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e51730946afbb0d48b0603d66f84bd01, type: 3}
+  m_Script: {fileID: 11500000, guid: 2b574b35f91b98244a6f590e5359ec8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  certificateSprites: []
-  certificateSprite: {fileID: 673635761}
-  certificatePanel: {fileID: 1143267030}
-  rightButton: {fileID: 233037168}
-  leftButton: {fileID: 209991383}
+  certificate:
+  - {fileID: 21300000, guid: 44e72b44240fd3a4d94a9a3ce4c2bf38, type: 3}
+  - {fileID: 21300000, guid: c26feaadfe067384781626db965de95e, type: 3}
+  - {fileID: 21300000, guid: 582a1e1eea29ba042b503c7a4038f73e, type: 3}
+  certificateManager: {fileID: 664283630}
 --- !u!1 &773630746
 GameObject:
   m_ObjectHideFlags: 0
@@ -7839,8 +7884,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 829733478}
-        m_TargetAssemblyTypeName: CertificateManager, Assembly-CSharp
-        m_MethodName: OpenCertificate
+        m_TargetAssemblyTypeName: CertificatesButton, Assembly-CSharp
+        m_MethodName: LoadCertificate
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7897,14 +7942,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 829733473}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e51730946afbb0d48b0603d66f84bd01, type: 3}
+  m_Script: {fileID: 11500000, guid: 2b574b35f91b98244a6f590e5359ec8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  certificateSprites: []
-  certificateSprite: {fileID: 673635761}
-  certificatePanel: {fileID: 1143267030}
-  rightButton: {fileID: 233037168}
-  leftButton: {fileID: 209991383}
+  certificate:
+  - {fileID: 21300000, guid: 4a32f45796076d34f95f3e193cd99111, type: 3}
+  certificateManager: {fileID: 664283630}
 --- !u!1 &850225521
 GameObject:
   m_ObjectHideFlags: 0
@@ -7970,8 +8013,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 850225526}
-        m_TargetAssemblyTypeName: CertificateManager, Assembly-CSharp
-        m_MethodName: OpenCertificate
+        m_TargetAssemblyTypeName: CertificatesButton, Assembly-CSharp
+        m_MethodName: LoadCertificate
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8052,14 +8095,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 850225521}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e51730946afbb0d48b0603d66f84bd01, type: 3}
+  m_Script: {fileID: 11500000, guid: 2b574b35f91b98244a6f590e5359ec8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  certificateSprites: []
-  certificateSprite: {fileID: 673635761}
-  certificatePanel: {fileID: 1143267030}
-  rightButton: {fileID: 233037168}
-  leftButton: {fileID: 209991383}
+  certificate:
+  - {fileID: 21300000, guid: 0cb06230c321a2b4a84debe4e661505f, type: 3}
+  certificateManager: {fileID: 664283630}
 --- !u!1 &852781954
 GameObject:
   m_ObjectHideFlags: 0
@@ -9364,8 +9405,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 997147133}
-        m_TargetAssemblyTypeName: CertificateManager, Assembly-CSharp
-        m_MethodName: OpenCertificate
+        m_TargetAssemblyTypeName: CertificatesButton, Assembly-CSharp
+        m_MethodName: LoadCertificate
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9422,14 +9463,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 997147128}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e51730946afbb0d48b0603d66f84bd01, type: 3}
+  m_Script: {fileID: 11500000, guid: 2b574b35f91b98244a6f590e5359ec8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  certificateSprites: []
-  certificateSprite: {fileID: 673635761}
-  certificatePanel: {fileID: 1143267030}
-  rightButton: {fileID: 233037168}
-  leftButton: {fileID: 209991383}
+  certificate:
+  - {fileID: 21300000, guid: cd75680af22a94f4b916af42b5ff8eda, type: 3}
+  certificateManager: {fileID: 664283630}
 --- !u!1 &1028964449
 GameObject:
   m_ObjectHideFlags: 0
@@ -15909,7 +15948,7 @@ MonoBehaviour:
     m_TableReference:
       m_TableCollectionName: GUID:8976d5c9f29f5cb47bb2c9601ba0b5bd
     m_TableEntryReference:
-      m_KeyId: 8273540574011392
+      m_KeyId: 8999298506350592
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
@@ -17683,8 +17722,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2021451134}
-        m_TargetAssemblyTypeName: CertificateManager, Assembly-CSharp
-        m_MethodName: OpenCertificate
+        m_TargetAssemblyTypeName: CertificatesButton, Assembly-CSharp
+        m_MethodName: LoadCertificate
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -17741,14 +17780,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 2021451129}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e51730946afbb0d48b0603d66f84bd01, type: 3}
+  m_Script: {fileID: 11500000, guid: 2b574b35f91b98244a6f590e5359ec8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  certificateSprites: []
-  certificateSprite: {fileID: 673635761}
-  certificatePanel: {fileID: 1143267030}
-  rightButton: {fileID: 233037168}
-  leftButton: {fileID: 209991383}
+  certificate:
+  - {fileID: 21300000, guid: 533361a6e19376c4b9fbb9fe95a9390f, type: 3}
+  certificateManager: {fileID: 664283630}
 --- !u!4 &2022130725 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 490288, guid: 11f926089a397c94c82e74b3e88c4964, type: 3}
@@ -17927,8 +17964,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2053269869}
-        m_TargetAssemblyTypeName: CertificateManager, Assembly-CSharp
-        m_MethodName: OpenCertificate
+        m_TargetAssemblyTypeName: CertificatesButton, Assembly-CSharp
+        m_MethodName: LoadCertificate
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -17985,14 +18022,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 2053269864}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e51730946afbb0d48b0603d66f84bd01, type: 3}
+  m_Script: {fileID: 11500000, guid: 2b574b35f91b98244a6f590e5359ec8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  certificateSprites: []
-  certificateSprite: {fileID: 673635761}
-  certificatePanel: {fileID: 1143267030}
-  rightButton: {fileID: 233037168}
-  leftButton: {fileID: 209991383}
+  certificate:
+  - {fileID: 21300000, guid: 32363d242b0b68942962be5413ff365a, type: 3}
+  - {fileID: 21300000, guid: d608a3e717f0a68448fa289c60081a62, type: 3}
+  - {fileID: 21300000, guid: 95896ee11e6d2b647bc205f51df1a1c5, type: 3}
+  certificateManager: {fileID: 664283630}
 --- !u!1 &2063115208
 GameObject:
   m_ObjectHideFlags: 0
@@ -18082,8 +18119,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2063115213}
-        m_TargetAssemblyTypeName: CertificateManager, Assembly-CSharp
-        m_MethodName: OpenCertificate
+        m_TargetAssemblyTypeName: CertificatesButton, Assembly-CSharp
+        m_MethodName: LoadCertificate
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -18140,14 +18177,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 2063115208}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e51730946afbb0d48b0603d66f84bd01, type: 3}
+  m_Script: {fileID: 11500000, guid: 2b574b35f91b98244a6f590e5359ec8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  certificateSprites: []
-  certificateSprite: {fileID: 673635761}
-  certificatePanel: {fileID: 1143267030}
-  rightButton: {fileID: 233037168}
-  leftButton: {fileID: 209991383}
+  certificate:
+  - {fileID: 21300000, guid: 53339bcfb4ad05c4eadab2680008e7ac, type: 3}
+  certificateManager: {fileID: 664283630}
 --- !u!1 &2091308203
 GameObject:
   m_ObjectHideFlags: 0

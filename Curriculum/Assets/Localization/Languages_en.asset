@@ -421,8 +421,8 @@ MonoBehaviour:
       -Energize socio-educational
       animation projects
 
-      -Development of socio-educational communication
-      and marketing actions'
+      -Development of socio-educational communication and
+      marketing actions'
     m_Metadata:
       m_Items: []
   - m_Id: 8273471917449216
@@ -436,6 +436,43 @@ MonoBehaviour:
   - m_Id: 8273540574011392
     m_Localized: "\r-Microsoft Office Package\r\n-Java Programming (Basic Concepts)\r\n-Java
       Programming (Algorithms)\r\n-HTML"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8998736998096896
+    m_Localized: 'Training with Scholarship
+
+      Openwebinars'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8998917411889152
+    m_Localized: July 2019 - August 2019
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8999298506350592
+    m_Localized: '-Java 8
+
+      -SQL
+
+      -Linux
+
+      -C#
+
+      -AngularJS
+
+      -Git,
+      Github
+
+      -PHP
+
+      -Unity
+
+      -Wordpress
+
+      -Android
+
+      -HTML,CSS,Javascript
+
+      -Python'
     m_Metadata:
       m_Items: []
   references:

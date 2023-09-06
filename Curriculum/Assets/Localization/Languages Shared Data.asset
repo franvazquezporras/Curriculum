@@ -279,6 +279,18 @@ MonoBehaviour:
     m_Key: InfosurDescription
     m_Metadata:
       m_Items: []
+  - m_Id: 8998736998096896
+    m_Key: OpenwebinarsTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8998917411889152
+    m_Key: OpenwebinarsTempo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8999298506350592
+    m_Key: OpenwebinarsDescription
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

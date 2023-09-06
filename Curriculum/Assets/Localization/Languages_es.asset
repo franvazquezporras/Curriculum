@@ -370,6 +370,41 @@ MonoBehaviour:
       Java (Algoritmos)\n-HTML"
     m_Metadata:
       m_Items: []
+  - m_Id: 8998736998096896
+    m_Localized: "Formaciones con Beca \nOpenwebinars"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8998917411889152
+    m_Localized: Julio 2019 - Agosto 2019
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8999298506350592
+    m_Localized: '-Java 8
+
+      -SQL
+
+      -Linux
+
+      -C#
+
+      -AngularJS
+
+      -Git,
+      Github
+
+      -PHP
+
+      -Unity
+
+      -Wordpress
+
+      -Android
+
+      -HTML,CSS,Javascript
+
+      -Python'
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
