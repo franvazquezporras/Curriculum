@@ -34,10 +34,10 @@ public class ButtonsMenu : MonoBehaviour
                     StartCoroutine(ChangeLightPropertiesOverTime("Studies"));                    
                     break;
                 case "experience":
-                    StartCoroutine(ChangeLightPropertiesOverTime("experience"));
+                    StartCoroutine(ChangeLightPropertiesOverTime("Experience"));
                     break;
-                case "links":
-                    StartCoroutine(ChangeLightPropertiesOverTime("links"));
+                case "aboutme":
+                    StartCoroutine(ChangeLightPropertiesOverTime("AboutMe"));
                     break;
             }
             audioSource.Play();

@@ -405,6 +405,15 @@ MonoBehaviour:
       -Python'
     m_Metadata:
       m_Items: []
+  - m_Id: 9573879629668352
+    m_Localized: "Sobre mi...\nSoy una persona ambiciosa por aprender cosas nuevas,
+      me encanta compartir el conocimiento. Tengo capacidad de adaptaci\xF3n y espiritu
+      de trabajo en equipo.\nActualmente entiendo y estudio ingles a diario para
+      mejorarlo.\nDisponibilidad horaria y geografica total.\nTengo un 33% de discapacidad
+      por la enfermedad de Crohn lo que no representa ning\xFAn impedimento para
+      realizar mi trabajo correctamente.\nTengo Carnet tipo B y vehiculo propio.\n"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
