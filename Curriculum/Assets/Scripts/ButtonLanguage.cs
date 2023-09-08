@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Localization.Settings;
-
+using UnityEngine.SceneManagement;
 
 public class ButtonLanguage : MonoBehaviour
 {
@@ -11,9 +11,11 @@ public class ButtonLanguage : MonoBehaviour
     [SerializeField] private GameObject languages;
     public void ChangeLocale(int localID)
     {
+      
         if (active)
             return;
         StartCoroutine(SetLocale(localID));
+      
     }
 
     IEnumerator SetLocale(int _localID)
@@ -23,5 +25,7 @@ public class ButtonLanguage : MonoBehaviour
         LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[_localID];
         active = false;
         languages.SetActive(false);
+        SceneManager.LoadScene("MainMenu");
+        
     }
 }
