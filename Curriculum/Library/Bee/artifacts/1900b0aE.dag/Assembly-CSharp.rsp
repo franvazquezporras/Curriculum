@@ -387,7 +387,6 @@
 "Assets/Scripts/CertificateManager.cs"
 "Assets/Scripts/CertificatesButton.cs"
 "Assets/Scripts/GameManager.cs"
-"Assets/Scripts/LanguageSave.cs"
 "Assets/Scripts/LinksWeb.cs"
 "Assets/Scripts/Singleton.cs"
 "Assets/Scripts/swipe.cs"

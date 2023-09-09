@@ -9,6 +9,15 @@ public class ButtonLanguage : MonoBehaviour
     private bool active = false;
 
     [SerializeField] private GameObject languages;
+
+    private void Start()
+    {
+        SystemLanguage currentLanguage = Application.systemLanguage;
+        if(currentLanguage == SystemLanguage.Spanish)
+            LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[1];
+        else
+            LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[0];
+    }
     public void ChangeLocale(int localID)
     {
       
