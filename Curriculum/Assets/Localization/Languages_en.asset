@@ -490,8 +490,12 @@ MonoBehaviour:
       I have a 33% disability due to Crohn''s disease, which
       does not represent an impediment to carry out my work correctly.
 
-      I
-      have type B license and own vehicle.'
+      I have
+      type B license and own vehicle.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10803191582220288
+    m_Localized: Examples
     m_Metadata:
       m_Items: []
   references:
