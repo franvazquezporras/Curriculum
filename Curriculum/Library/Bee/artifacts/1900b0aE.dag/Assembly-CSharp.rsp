@@ -388,6 +388,7 @@
 "Assets/Scripts/CertificatesButton.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/LinksWeb.cs"
+"Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/Singleton.cs"
 "Assets/Scripts/swipe.cs"
 -langversion:9.0
