@@ -14,4 +14,10 @@ public class ButtonBack : MonoBehaviour
     {
         item.SetActive(false);
     }
+
+
+    public void Exit()
+    {
+        Application.Quit();
+    }
 }
