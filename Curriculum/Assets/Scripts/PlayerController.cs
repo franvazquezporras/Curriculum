@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public float velocidadMovimiento = 5.0f; // Velocidad de movimiento del personaje
-    public float fuerzaSalto = 10.0f; // Fuerza del salto
+    [SerializeField] private float velocidadMovimiento = 5.0f; // Velocidad de movimiento del personaje
+    [SerializeField] private float fuerzaSalto = 10.0f; // Fuerza del salto
     private bool enSuelo = true; // ¿Está el personaje en el suelo?
 
     private Rigidbody2D rb;
