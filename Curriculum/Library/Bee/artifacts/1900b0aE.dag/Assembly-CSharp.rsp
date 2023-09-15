@@ -380,6 +380,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/Camera/CameraMovement.cs"
 "Assets/Scripts/Camera/CameraZoom.cs"
+"Assets/Scripts/Examples/MudPlatform.cs"
 "Assets/Scripts/Examples/PlatformMove.cs"
 "Assets/Scripts/Examples/PlatformShake.cs"
 "Assets/Scripts/Examples/PlatformTrampoline.cs"

@@ -25,15 +25,14 @@ public class PlatformTrampoline : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log(playerFallVelocity);
-        if (canBounce && collision.gameObject.CompareTag("Player"))
+        if (canBounce && collision.gameObject.CompareTag("Player") && enabled)
         {
 
             Rigidbody2D playerRb = collision.collider.GetComponent<Rigidbody2D>();
             if (playerRb != null)
             {
                 // Calcula la fuerza de rebote para el jugador como la mitad de su velocidad de caída simulada
-                float playerBounceForce = Mathf.Abs(playerFallVelocity) * 0.9f;
+                float playerBounceForce = Mathf.Abs(playerFallVelocity) * 0.99f;
                 playerBounceForce = Mathf.Max(playerBounceForce, minPlayerBounceForce);
 
                 // Aplica la fuerza de rebote al jugador

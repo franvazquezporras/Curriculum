@@ -7,9 +7,12 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float velocidadMovimiento = 5.0f; // Velocidad de movimiento del personaje
     [SerializeField] private float fuerzaSalto = 10.0f; // Fuerza del salto
     private bool enSuelo = true; // ¿Está el personaje en el suelo?
-
+    private float timeStuned;
     private Rigidbody2D rb;
 
+    public void SetTimeStuned(float _timeStuned) { 
+        timeStuned = _timeStuned;
+    }
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -17,16 +20,21 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        // Mover el personaje lateralmente
-        float movimientoHorizontal = Input.GetAxis("Horizontal");
-        Vector2 movimiento = new Vector2(movimientoHorizontal, 0);
-        rb.velocity = new Vector2(movimiento.x * velocidadMovimiento, rb.velocity.y);
-
-        // Hacer que el personaje salte si está en el suelo y se presiona la tecla de salto (por ejemplo, barra espaciadora)
-        if (enSuelo && Input.GetButtonDown("Jump"))
+        if (timeStuned > 0)
+            timeStuned-= Time.deltaTime;
+        else
         {
-            rb.AddForce(Vector2.up * fuerzaSalto, ForceMode2D.Impulse);
-            enSuelo = false;
+            // Mover el personaje lateralmente
+            float movimientoHorizontal = Input.GetAxis("Horizontal");
+            Vector2 movimiento = new Vector2(movimientoHorizontal, 0);
+            rb.velocity = new Vector2(movimiento.x * velocidadMovimiento, rb.velocity.y);
+
+            // Hacer que el personaje salte si está en el suelo y se presiona la tecla de salto (por ejemplo, barra espaciadora)
+            if (enSuelo && Input.GetButtonDown("Jump"))
+            {
+                rb.AddForce(Vector2.up * fuerzaSalto, ForceMode2D.Impulse);
+                enSuelo = false;
+            }
         }
     }
 
@@ -45,4 +53,5 @@ public class PlayerController : MonoBehaviour
             enSuelo = false;
         }
     }
+ 
 }

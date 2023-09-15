@@ -5986,6 +5986,7 @@ GameObject:
   - component: {fileID: 1791298548}
   - component: {fileID: 1791298549}
   - component: {fileID: 1791298550}
+  - component: {fileID: 1791298551}
   m_Layer: 0
   m_Name: Platform
   m_TagString: Floor
@@ -6076,13 +6077,27 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1791298543}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ca8da3c12890bc64fadb5489e2523bdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   minPlayerBounceForce: 1
   platformRecoilForce: 5
+--- !u!114 &1791298551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791298543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcfc222a66245e54d8d8b996350e15a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sinkSpeed: 0.5
+  sinkDistance: 5
 --- !u!1 &1854559007
 GameObject:
   m_ObjectHideFlags: 0
