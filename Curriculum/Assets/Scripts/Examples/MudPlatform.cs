@@ -10,6 +10,7 @@ public class MudPlatform : MonoBehaviour
 
     public float sinkSpeed = 0.2f;
     public float sinkDistance = 5.0f;
+   
 
     void Start()
     {
@@ -19,6 +20,7 @@ public class MudPlatform : MonoBehaviour
 
     void Update()
     {
+       
         if (isSinking)
         {
             // Mover el collider, no la plataforma física
@@ -37,8 +39,8 @@ public class MudPlatform : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Player") && !isSinking && enabled)
-        {
+        if (collision.gameObject.CompareTag("Player") &&  enabled)
+        {          
             collision.gameObject.GetComponent<PlayerController>().SetTimeStuned(1f);
             if(!isSinking)
                 isSinking = true;

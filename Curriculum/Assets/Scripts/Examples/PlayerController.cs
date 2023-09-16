@@ -21,21 +21,31 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         if (timeStuned > 0)
-            timeStuned-= Time.deltaTime;
+        {
+            velocidadMovimiento = 5;
+            fuerzaSalto =20;
+            timeStuned -= Time.deltaTime;
+        }
         else
         {
+            velocidadMovimiento = 10;
+            fuerzaSalto = 40;
+        }
+
+            
+        
             // Mover el personaje lateralmente
             float movimientoHorizontal = Input.GetAxis("Horizontal");
             Vector2 movimiento = new Vector2(movimientoHorizontal, 0);
             rb.velocity = new Vector2(movimiento.x * velocidadMovimiento, rb.velocity.y);
-
-            // Hacer que el personaje salte si está en el suelo y se presiona la tecla de salto (por ejemplo, barra espaciadora)
-            if (enSuelo && Input.GetButtonDown("Jump"))
+        
+        // Hacer que el personaje salte si está en el suelo y se presiona la tecla de salto (por ejemplo, barra espaciadora)
+        if (enSuelo && Input.GetButtonDown("Jump"))
             {
                 rb.AddForce(Vector2.up * fuerzaSalto, ForceMode2D.Impulse);
                 enSuelo = false;
             }
-        }
+        
     }
 
     void OnCollisionEnter2D(Collision2D col)
