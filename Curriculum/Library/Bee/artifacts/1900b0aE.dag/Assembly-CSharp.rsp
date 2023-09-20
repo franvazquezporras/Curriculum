@@ -390,6 +390,7 @@
 "Assets/Scripts/UIMenus/ButtonLanguage.cs"
 "Assets/Scripts/UIMenus/ButtonMute.cs"
 "Assets/Scripts/UIMenus/ButtonsMenu.cs"
+"Assets/Scripts/UIMenus/ButtonSound.cs"
 "Assets/Scripts/UIMenus/CertificateManager.cs"
 "Assets/Scripts/UIMenus/CertificatesButton.cs"
 "Assets/Scripts/UIMenus/LinksWeb.cs"

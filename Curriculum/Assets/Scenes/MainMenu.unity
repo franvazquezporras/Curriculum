@@ -1442,6 +1442,18 @@ MonoBehaviour:
           m_StringArgument: https://zetaka.itch.io/
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 681121406}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &224360517
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2173,6 +2185,18 @@ MonoBehaviour:
       - m_Target: {fileID: 535554961}
         m_TargetAssemblyTypeName: ButtonBack, Assembly-CSharp
         m_MethodName: Exit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 681121406}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2954,6 +2978,7 @@ GameObject:
   - component: {fileID: 681121401}
   - component: {fileID: 681121400}
   - component: {fileID: 681121405}
+  - component: {fileID: 681121406}
   m_Layer: 5
   m_Name: LinksWeb
   m_TagString: Untagged
@@ -3083,6 +3108,102 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65e8b271eec9d4f4fa3b6ba46e329f51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!82 &681121406
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 681121399}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 6481553043153523704, guid: c4fdae9636f7de54094cbc4e84827484, type: 2}
+  m_audioClip: {fileID: 8300000, guid: 53b8cbd29a623a24db43ce3e4fe7b61e, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!4 &685800270 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 490288, guid: 11f926089a397c94c82e74b3e88c4964, type: 3}
@@ -3444,6 +3565,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: https://www.linkedin.com/in/francisco-javier-v%C3%A1zquez-porras-0386a8125/
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 681121406}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &863298406
@@ -3864,6 +3997,22 @@ PrefabInstance:
       value: Button
       objectReference: {fileID: 0}
     - target: {fileID: 5028091068929408999, guid: 0254035f40f20404faf0027713793d69, type: 3}
+      propertyPath: m_AnimationTriggers.m_PressedTrigger
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5028091068929408999, guid: 0254035f40f20404faf0027713793d69, type: 3}
+      propertyPath: m_AnimationTriggers.m_DisabledTrigger
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5028091068929408999, guid: 0254035f40f20404faf0027713793d69, type: 3}
+      propertyPath: m_AnimationTriggers.m_SelectedTrigger
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5028091068929408999, guid: 0254035f40f20404faf0027713793d69, type: 3}
+      propertyPath: m_AnimationTriggers.m_HighlightedTrigger
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5028091068929408999, guid: 0254035f40f20404faf0027713793d69, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -4215,6 +4364,22 @@ PrefabInstance:
     - target: {fileID: 5028091068929408994, guid: 0254035f40f20404faf0027713793d69, type: 3}
       propertyPath: m_TagString
       value: Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 5028091068929408999, guid: 0254035f40f20404faf0027713793d69, type: 3}
+      propertyPath: m_AnimationTriggers.m_PressedTrigger
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5028091068929408999, guid: 0254035f40f20404faf0027713793d69, type: 3}
+      propertyPath: m_AnimationTriggers.m_DisabledTrigger
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5028091068929408999, guid: 0254035f40f20404faf0027713793d69, type: 3}
+      propertyPath: m_AnimationTriggers.m_SelectedTrigger
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5028091068929408999, guid: 0254035f40f20404faf0027713793d69, type: 3}
+      propertyPath: m_AnimationTriggers.m_HighlightedTrigger
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5028091068929408999, guid: 0254035f40f20404faf0027713793d69, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -4896,6 +5061,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: https://github.com/franvazquezporras
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 681121406}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1109749859
@@ -5717,6 +5894,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 681121406}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1217961110
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6032,7 +6221,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1280005821}
   - component: {fileID: 1280005823}
-  - component: {fileID: 1280005822}
   m_Layer: 0
   m_Name: silhouette_3 (3)
   m_TagString: Untagged
@@ -6055,18 +6243,6 @@ Transform:
   m_Father: {fileID: 1356227111}
   m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -6.0782}
---- !u!114 &1280005822
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1280005820}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0fba1342152bbce4e80b05d5c75f4dd8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &1280005823
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6387,6 +6563,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1348313366}
         m_TargetAssemblyTypeName: ButtonMute, Assembly-CSharp
         m_MethodName: ToggleMusic
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 681121406}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8776,7 +8964,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1733647828}
   - component: {fileID: 1733647830}
-  - component: {fileID: 1733647829}
   m_Layer: 0
   m_Name: silhouette_3
   m_TagString: Untagged
@@ -8799,18 +8986,6 @@ Transform:
   m_Father: {fileID: 1356227111}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1733647829
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1733647827}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0fba1342152bbce4e80b05d5c75f4dd8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &1733647830
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10048,7 +10223,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2106320105}
   - component: {fileID: 2106320108}
-  - component: {fileID: 2106320107}
   - component: {fileID: 2106320106}
   m_Layer: 0
   m_Name: silhouette_3 (1)
@@ -10093,18 +10267,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &2106320107
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2106320104}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0fba1342152bbce4e80b05d5c75f4dd8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &2106320108
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10255,6 +10417,22 @@ PrefabInstance:
     - target: {fileID: 5028091068929408994, guid: 0254035f40f20404faf0027713793d69, type: 3}
       propertyPath: m_TagString
       value: Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 5028091068929408999, guid: 0254035f40f20404faf0027713793d69, type: 3}
+      propertyPath: m_AnimationTriggers.m_PressedTrigger
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5028091068929408999, guid: 0254035f40f20404faf0027713793d69, type: 3}
+      propertyPath: m_AnimationTriggers.m_DisabledTrigger
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5028091068929408999, guid: 0254035f40f20404faf0027713793d69, type: 3}
+      propertyPath: m_AnimationTriggers.m_SelectedTrigger
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5028091068929408999, guid: 0254035f40f20404faf0027713793d69, type: 3}
+      propertyPath: m_AnimationTriggers.m_HighlightedTrigger
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5028091068929408999, guid: 0254035f40f20404faf0027713793d69, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size

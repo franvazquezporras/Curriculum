@@ -9,6 +9,7 @@ public class ButtonLanguage : MonoBehaviour
     private bool active = false;
 
     [SerializeField] private GameObject languages;
+    [SerializeField] private GameObject blockPanel;
 
     private void Start()
     {
@@ -33,7 +34,8 @@ public class ButtonLanguage : MonoBehaviour
         yield return LocalizationSettings.InitializationOperation;
         LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[_localID];
         active = false;
-        languages.SetActive(false);
+        blockPanel.SetActive(true);
+        yield return new WaitForSeconds(0.5f);
         SceneManager.LoadScene("MainMenu");
         
     }
