@@ -1,4 +1,5 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+<<<<<<< HEAD
 ,{ "pid":12345, "tid":0, "ts":1695892053015070, "dur":1191, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1695892053016265, "dur":352, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
 ,{ "pid":12345, "tid":0, "ts":1695892053016703, "dur":51, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
@@ -1975,4 +1976,630 @@
 ,{ "pid":12345, "tid":16, "ts":1695892060863333, "dur":103371, "ph":"X", "name": "MovedFromExtractorCombine",  "args": { "detail":"Library/Bee/artifacts/1900b0aE.dag/Unity.Burst.dll.mvfrm" }}
 ,{ "pid":12345, "tid":16, "ts":1695892060966730, "dur":286154, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1695892061262108, "dur":4163, "ph":"X", "name": "ProfilerWriteOutput" }
+=======
+,{ "pid":12345, "tid":0, "ts":1695226799184934, "dur":800, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695226799185738, "dur":77, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1695226799185847, "dur":12, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1695226799185859, "dur":300, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1695226799186173, "dur":436, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695226799186609, "dur":0, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695226799999965, "dur":240, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695226800000205, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695226800000219, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695226800000225, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695226800000232, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695226800000233, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695226800000240, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695226800000240, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695226800000244, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695226800000244, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695226800000247, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695226800000249, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695226800000255, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695226800000256, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695226800000262, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695226800000263, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695226800000266, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695226800000267, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695226800000269, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695226800000270, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695226800000273, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695226800000274, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695226800000277, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695226800000278, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695226800000281, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695226800000282, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695226800000285, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695226800000286, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695226800000289, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695226800000290, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695226800000295, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695226800000295, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695226800000298, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695226800000309, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695226800000339, "dur":1116, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1695226799186734, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695226799186734, "dur":1761, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695226799188496, "dur":14978, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1695226799203477, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695226799209749, "dur":1957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1695226799211721, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1695226799211744, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695226799211766, "dur":99383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1695226799311168, "dur":210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695226799311381, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695226799311388, "dur":853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695226799312275, "dur":14002, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695226799326280, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695226799326285, "dur":676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695226799326998, "dur":12662, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695226799339663, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695226799339668, "dur":762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695226799340469, "dur":250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695226799340721, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695226799340725, "dur":782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695226799341544, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695226799341689, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695226799341693, "dur":663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695226799342390, "dur":290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695226799342682, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695226799342687, "dur":1371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695226799344092, "dur":443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695226799344537, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695226799344541, "dur":2213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695226799346828, "dur":39885, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695226799386718, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695226799386727, "dur":1250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695226799388036, "dur":611969, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695226799186338, "dur":276, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695226799186615, "dur":1830, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695226799188452, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1695226799188455, "dur":259, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695226799188716, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1695226799188720, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695226799213952, "dur":757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1695226799214711, "dur":201364, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695226799416080, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695226799416374, "dur":1030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695226799417425, "dur":582581, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1695226799186463, "dur":155, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1695226799186618, "dur":1882, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1695226799188501, "dur":29528, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1695226799218033, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1695226799218044, "dur":537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1695226799218590, "dur":307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum.exe" }}
+,{ "pid":12345, "tid":3, "ts":1695226799218898, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1695226799218901, "dur":974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum.exe" }}
+,{ "pid":12345, "tid":3, "ts":1695226799219902, "dur":38245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695226799258149, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1695226799258153, "dur":598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695226799258785, "dur":8999, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695226799267786, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1695226799267804, "dur":1740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695226799269568, "dur":27386, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695226799296958, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1695226799296964, "dur":568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695226799297556, "dur":11106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695226799308664, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1695226799308669, "dur":693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695226799309397, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695226799309564, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1695226799309571, "dur":656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695226799310258, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695226799310429, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1695226799310449, "dur":1035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695226799311520, "dur":21371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695226799332895, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1695226799332903, "dur":822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695226799333757, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695226799333921, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1695226799333927, "dur":710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695226799334675, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695226799334874, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1695226799334878, "dur":788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695226799335696, "dur":94258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695226799429958, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1695226799429977, "dur":606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695226799430606, "dur":569365, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695226799186626, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695226799186626, "dur":1872, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695226799188499, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1695226799188533, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695226799210264, "dur":98195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1695226799308472, "dur":13190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695226799321666, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695226799321671, "dur":925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695226799322629, "dur":16722, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695226799339355, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695226799339360, "dur":878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695226799340273, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695226799340378, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695226799340382, "dur":604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695226799341021, "dur":401, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695226799341425, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695226799341431, "dur":800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695226799342265, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695226799342412, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695226799342418, "dur":1178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695226799343634, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/Unity.ScriptableBuildPipeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695226799343741, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695226799343747, "dur":719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/Unity.ScriptableBuildPipeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695226799344504, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/Unity.Localization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695226799344737, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695226799344757, "dur":2126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/Unity.Localization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695226799346929, "dur":80290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695226799427223, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695226799427229, "dur":870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695226799428124, "dur":571884, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695226799186582, "dur":77, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695226799186659, "dur":1788, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695226799188452, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1695226799188527, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695226799209856, "dur":14393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1695226799224264, "dur":12453, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695226799236721, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695226799236792, "dur":593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695226799237413, "dur":19044, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695226799256459, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695226799256463, "dur":981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695226799257477, "dur":10401, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695226799267880, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695226799267893, "dur":1917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695226799269857, "dur":35598, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695226799305458, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695226799305464, "dur":633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695226799306120, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695226799306201, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695226799306204, "dur":538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695226799306764, "dur":14845, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695226799321612, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695226799321618, "dur":892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695226799322546, "dur":44237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695226799366787, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695226799366794, "dur":1852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695226799368692, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1695226799368826, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695226799368836, "dur":1039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1695226799369914, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1695226799369959, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695226799369968, "dur":1414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1695226799371452, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/level4" }}
+,{ "pid":12345, "tid":5, "ts":1695226799371523, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695226799371532, "dur":1342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/level4" }}
+,{ "pid":12345, "tid":5, "ts":1695226799372934, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/level1" }}
+,{ "pid":12345, "tid":5, "ts":1695226799372991, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695226799372998, "dur":1520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/level1" }}
+,{ "pid":12345, "tid":5, "ts":1695226799374556, "dur":625409, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695226799186604, "dur":58, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695226799186662, "dur":1786, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695226799188452, "dur":22356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1695226799210810, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695226799210882, "dur":807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1695226799211702, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1695226799211722, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695226799211726, "dur":3181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1695226799214923, "dur":777448, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695226799992374, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695226799992379, "dur":7552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695226799999945, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":6, "ts":1695226799999946, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695226799186948, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695226799186948, "dur":1498, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695226799188451, "dur":30516, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1695226799218969, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695226799219131, "dur":804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1695226799219946, "dur":10181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695226799230132, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695226799230290, "dur":579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695226799230896, "dur":25538, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695226799256448, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695226799256452, "dur":902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695226799257378, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695226799257478, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695226799257482, "dur":534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695226799258038, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695226799258110, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695226799258113, "dur":489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695226799258638, "dur":9122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695226799267765, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695226799267771, "dur":1410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695226799269226, "dur":9777, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695226799279007, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695226799279012, "dur":737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695226799279795, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695226799279907, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695226799279910, "dur":640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695226799280573, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695226799280736, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695226799280740, "dur":592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695226799281355, "dur":11717, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695226799293076, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695226799293082, "dur":613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695226799293719, "dur":24387, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695226799318108, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695226799318115, "dur":855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695226799319007, "dur":261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695226799319270, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695226799319276, "dur":666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695226799319977, "dur":11266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695226799331246, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695226799331250, "dur":795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695226799332076, "dur":12406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695226799344485, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695226799344490, "dur":1891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695226799346426, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695226799346535, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695226799346541, "dur":1062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695226799347659, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/Unity.Addressables.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695226799347823, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695226799347829, "dur":752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/Unity.Addressables.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695226799348611, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695226799348727, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695226799348731, "dur":859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695226799349667, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695226799349767, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695226799349773, "dur":736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695226799350545, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695226799350742, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695226799350747, "dur":838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695226799351618, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695226799351832, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695226799351837, "dur":670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695226799352542, "dur":652, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695226799353197, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695226799353202, "dur":1179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695226799354418, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695226799354588, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695226799354592, "dur":811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695226799355434, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695226799355557, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695226799355562, "dur":1026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695226799356619, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695226799356723, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695226799356728, "dur":661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695226799357420, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695226799357583, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695226799357588, "dur":1228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695226799358851, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695226799359010, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695226799359017, "dur":896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695226799359946, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695226799360052, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695226799360057, "dur":822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695226799360920, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/StreamingAssets/aa/StandaloneWindows64/localization-locales_assets_all.bundle" }}
+,{ "pid":12345, "tid":7, "ts":1695226799360975, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695226799361113, "dur":1018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/StreamingAssets/aa/StandaloneWindows64/localization-locales_assets_all.bundle" }}
+,{ "pid":12345, "tid":7, "ts":1695226799362169, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/StreamingAssets/aa/catalog.json" }}
+,{ "pid":12345, "tid":7, "ts":1695226799362267, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695226799362271, "dur":776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/StreamingAssets/aa/catalog.json" }}
+,{ "pid":12345, "tid":7, "ts":1695226799363219, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1695226799363272, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695226799363276, "dur":154821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1695226799532562, "dur":467405, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695226799186960, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695226799186961, "dur":1536, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695226799188498, "dur":30247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1695226799218747, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695226799218769, "dur":734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1695226799219513, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1695226799219531, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695226799219758, "dur":35466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1695226799255241, "dur":18459, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695226799273704, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695226799273710, "dur":617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695226799274360, "dur":10178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695226799284540, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695226799284544, "dur":518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695226799285086, "dur":30880, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695226799315971, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695226799315981, "dur":985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695226799317004, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695226799317138, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695226799317147, "dur":738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695226799317917, "dur":13258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695226799331180, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695226799331189, "dur":890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695226799332117, "dur":12684, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695226799344803, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695226799344807, "dur":1980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695226799346826, "dur":52390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695226799399221, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695226799399232, "dur":934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695226799400205, "dur":599804, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1695226799187110, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1695226799187110, "dur":1386, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1695226799188497, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1695226799188532, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1695226799213601, "dur":11384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1695226799225001, "dur":20217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1695226799245221, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1695226799245227, "dur":635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1695226799245900, "dur":10009, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1695226799255911, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1695226799255917, "dur":652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1695226799256600, "dur":11298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1695226799267900, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1695226799267904, "dur":1820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1695226799269752, "dur":9251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1695226799279006, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1695226799279012, "dur":723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1695226799279760, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1695226799279875, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1695226799279879, "dur":567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1695226799280470, "dur":577, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1695226799281049, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1695226799281052, "dur":918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1695226799282010, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1695226799282122, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1695226799282127, "dur":504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1695226799282654, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1695226799282732, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1695226799282735, "dur":444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1695226799283203, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1695226799283348, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1695226799283352, "dur":598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1695226799283979, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1695226799284067, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1695226799284070, "dur":554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1695226799284654, "dur":9315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1695226799293971, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1695226799293975, "dur":683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1695226799294693, "dur":15582, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1695226799310278, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1695226799310284, "dur":839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1695226799311156, "dur":14572, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1695226799325733, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1695226799325742, "dur":808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1695226799326584, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1695226799326689, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1695226799326694, "dur":591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1695226799327313, "dur":876, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1695226799328193, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1695226799328200, "dur":1167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1695226799329400, "dur":14839, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1695226799344242, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1695226799344247, "dur":992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1695226799345266, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":9, "ts":1695226799345364, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1695226799345369, "dur":1519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":9, "ts":1695226799346926, "dur":64569, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":9, "ts":1695226799411501, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1695226799411511, "dur":1127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":9, "ts":1695226799412693, "dur":587283, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1695226799186852, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1695226799186852, "dur":1596, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1695226799188452, "dur":381, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1695226799188835, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1695226799209498, "dur":98360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1695226799307879, "dur":13426, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1695226799321308, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1695226799321312, "dur":816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1695226799322163, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1695226799322275, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1695226799322280, "dur":737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1695226799323038, "dur":19484, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":10, "ts":1695226799342525, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1695226799342530, "dur":1225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":10, "ts":1695226799343787, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/Unity.ResourceManager.dll" }}
+,{ "pid":12345, "tid":10, "ts":1695226799343948, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1695226799343953, "dur":772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/Unity.ResourceManager.dll" }}
+,{ "pid":12345, "tid":10, "ts":1695226799344758, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/Unity.InternalAPIEngineBridge.013.dll" }}
+,{ "pid":12345, "tid":10, "ts":1695226799344854, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1695226799344857, "dur":1741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/Unity.InternalAPIEngineBridge.013.dll" }}
+,{ "pid":12345, "tid":10, "ts":1695226799346638, "dur":274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":10, "ts":1695226799346915, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1695226799346919, "dur":1005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":10, "ts":1695226799347955, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":10, "ts":1695226799348057, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1695226799348062, "dur":776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":10, "ts":1695226799348873, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":10, "ts":1695226799348951, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1695226799348955, "dur":957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":10, "ts":1695226799349949, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1695226799350064, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1695226799350069, "dur":995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1695226799351103, "dur":2079, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":10, "ts":1695226799353185, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1695226799353190, "dur":1847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":10, "ts":1695226799355072, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":10, "ts":1695226799355188, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1695226799355193, "dur":969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":10, "ts":1695226799356199, "dur":1300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":10, "ts":1695226799357500, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1695226799357505, "dur":2078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":10, "ts":1695226799359622, "dur":2924, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":10, "ts":1695226799362564, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1695226799362569, "dur":2530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":10, "ts":1695226799365139, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":10, "ts":1695226799365182, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1695226799365186, "dur":5182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":10, "ts":1695226799370404, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/level5" }}
+,{ "pid":12345, "tid":10, "ts":1695226799370446, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1695226799370451, "dur":1151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/level5" }}
+,{ "pid":12345, "tid":10, "ts":1695226799371636, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/level2" }}
+,{ "pid":12345, "tid":10, "ts":1695226799371678, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1695226799371681, "dur":1262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/level2" }}
+,{ "pid":12345, "tid":10, "ts":1695226799372988, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":10, "ts":1695226799373043, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1695226799373048, "dur":1313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":10, "ts":1695226799374403, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":10, "ts":1695226799374446, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1695226799374453, "dur":831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":10, "ts":1695226799375317, "dur":624649, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1695226799187022, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1695226799187022, "dur":1478, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1695226799188500, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1695226799188534, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1695226799210271, "dur":148497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1695226799358789, "dur":763, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":11, "ts":1695226799359554, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1695226799359560, "dur":983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":11, "ts":1695226799360579, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-english(en)_assets_all.bundle" }}
+,{ "pid":12345, "tid":11, "ts":1695226799360628, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1695226799360900, "dur":896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-english(en)_assets_all.bundle" }}
+,{ "pid":12345, "tid":11, "ts":1695226799361832, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/StreamingAssets/aa/settings.json" }}
+,{ "pid":12345, "tid":11, "ts":1695226799361923, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1695226799361928, "dur":714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/StreamingAssets/aa/settings.json" }}
+,{ "pid":12345, "tid":11, "ts":1695226799362677, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":11, "ts":1695226799362715, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1695226799362719, "dur":876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":11, "ts":1695226799363632, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":11, "ts":1695226799363668, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1695226799363673, "dur":1062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":11, "ts":1695226799364787, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":11, "ts":1695226799364836, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1695226799364843, "dur":1846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":11, "ts":1695226799366736, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":11, "ts":1695226799366786, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1695226799366792, "dur":3224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":11, "ts":1695226799370055, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/resources.assets" }}
+,{ "pid":12345, "tid":11, "ts":1695226799370103, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1695226799370108, "dur":1432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/resources.assets" }}
+,{ "pid":12345, "tid":11, "ts":1695226799371577, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/level3" }}
+,{ "pid":12345, "tid":11, "ts":1695226799371621, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1695226799371625, "dur":1267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/level3" }}
+,{ "pid":12345, "tid":11, "ts":1695226799372945, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/level0" }}
+,{ "pid":12345, "tid":11, "ts":1695226799372998, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1695226799373003, "dur":1366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/level0" }}
+,{ "pid":12345, "tid":11, "ts":1695226799374409, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/boot.config" }}
+,{ "pid":12345, "tid":11, "ts":1695226799374541, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1695226799374545, "dur":1007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/boot.config" }}
+,{ "pid":12345, "tid":11, "ts":1695226799375584, "dur":624380, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1695226799187264, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1695226799187265, "dur":1186, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1695226799188452, "dur":194246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1695226799382732, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1695226799382755, "dur":1119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1695226799383899, "dur":616064, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1695226799187347, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1695226799187348, "dur":1150, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1695226799188498, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":13, "ts":1695226799188532, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1695226799209750, "dur":4496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":13, "ts":1695226799214261, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":13, "ts":1695226799214308, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1695226799214313, "dur":88724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":13, "ts":1695226799303052, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1695226799303146, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1695226799303150, "dur":587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1695226799303773, "dur":13754, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1695226799317531, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1695226799317538, "dur":706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1695226799318281, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1695226799318410, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1695226799318434, "dur":838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1695226799319308, "dur":15311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1695226799334622, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1695226799334628, "dur":918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1695226799335585, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1695226799335782, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1695226799335788, "dur":771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1695226799336587, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1695226799336712, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1695226799336735, "dur":704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1695226799337474, "dur":17543, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1695226799355020, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1695226799355025, "dur":790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1695226799355852, "dur":352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":13, "ts":1695226799356207, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1695226799356212, "dur":832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":13, "ts":1695226799357079, "dur":689, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":13, "ts":1695226799357770, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1695226799357773, "dur":2227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":13, "ts":1695226799360037, "dur":19408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":13, "ts":1695226799379454, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1695226799380196, "dur":1158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":13, "ts":1695226799381411, "dur":618596, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1695226799187128, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1695226799187128, "dur":1326, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1695226799188455, "dur":445, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":14, "ts":1695226799188903, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1695226799209511, "dur":5638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":14, "ts":1695226799215164, "dur":106043, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":14, "ts":1695226799321210, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1695226799321215, "dur":1225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":14, "ts":1695226799322456, "dur":12078, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1695226799334538, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1695226799334544, "dur":982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1695226799335563, "dur":13414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1695226799348980, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1695226799348984, "dur":1049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1695226799350066, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":14, "ts":1695226799350213, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1695226799350219, "dur":965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":14, "ts":1695226799351218, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":14, "ts":1695226799351327, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1695226799351331, "dur":676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":14, "ts":1695226799352041, "dur":281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":14, "ts":1695226799352324, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1695226799352328, "dur":926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":14, "ts":1695226799353285, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":14, "ts":1695226799353360, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1695226799353363, "dur":781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":14, "ts":1695226799354168, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":14, "ts":1695226799354344, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1695226799354350, "dur":907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":14, "ts":1695226799355299, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":14, "ts":1695226799355465, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1695226799355470, "dur":986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":14, "ts":1695226799356485, "dur":1388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":14, "ts":1695226799357875, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1695226799357878, "dur":2384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":14, "ts":1695226799360306, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-spanish(es)_assets_all.bundle" }}
+,{ "pid":12345, "tid":14, "ts":1695226799360359, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1695226799360884, "dur":848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-spanish(es)_assets_all.bundle" }}
+,{ "pid":12345, "tid":14, "ts":1695226799361774, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/StreamingAssets/aa/AddressablesLink/link.xml" }}
+,{ "pid":12345, "tid":14, "ts":1695226799361875, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1695226799362090, "dur":657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/StreamingAssets/aa/AddressablesLink/link.xml" }}
+,{ "pid":12345, "tid":14, "ts":1695226799362787, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":14, "ts":1695226799362827, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1695226799362831, "dur":896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":14, "ts":1695226799363763, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":14, "ts":1695226799363796, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1695226799363800, "dur":1023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":14, "ts":1695226799364852, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":14, "ts":1695226799364885, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1695226799364889, "dur":3900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":14, "ts":1695226799368835, "dur":7879, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":14, "ts":1695226799376720, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1695226799376732, "dur":1008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":14, "ts":1695226799377782, "dur":622189, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1695226799187244, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1695226799187244, "dur":1255, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1695226799188499, "dur":25460, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1695226799213961, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1695226799213970, "dur":908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1695226799214891, "dur":625321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":15, "ts":1695226799840217, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1695226799840327, "dur":2041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":15, "ts":1695226799842380, "dur":157588, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1695226799187361, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1695226799187361, "dur":1097, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1695226799188458, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":16, "ts":1695226799188527, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1695226799209782, "dur":147998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":16, "ts":1695226799357799, "dur":255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":16, "ts":1695226799358057, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1695226799358061, "dur":1740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":16, "ts":1695226799359837, "dur":254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":16, "ts":1695226799360093, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1695226799360098, "dur":963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":16, "ts":1695226799361095, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/StreamingAssets/aa/StandaloneWindows64/localization-assets-shared_assets_all.bundle" }}
+,{ "pid":12345, "tid":16, "ts":1695226799361150, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1695226799361156, "dur":1314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/StreamingAssets/aa/StandaloneWindows64/localization-assets-shared_assets_all.bundle" }}
+,{ "pid":12345, "tid":16, "ts":1695226799362512, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":16, "ts":1695226799362600, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1695226799362696, "dur":928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":16, "ts":1695226799363660, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":16, "ts":1695226799363696, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1695226799363700, "dur":1294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":16, "ts":1695226799365077, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":16, "ts":1695226799365117, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1695226799365121, "dur":1545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":16, "ts":1695226799366703, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":16, "ts":1695226799366745, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1695226799366755, "dur":49623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Vazkez/Desktop/CVUnityDev/Curriculum_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":16, "ts":1695226799416411, "dur":583597, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695226800002312, "dur":1415, "ph":"X", "name": "ProfilerWriteOutput" }
+>>>>>>> parent of 1f8838e9 (Updates)
 ,
