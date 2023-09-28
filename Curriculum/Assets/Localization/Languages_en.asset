@@ -65,7 +65,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 6486801593327616
-    m_Localized: May 2023 - Actually
+    m_Localized: May 2023 - At the moment
     m_Metadata:
       m_Items: []
   - m_Id: 6487231278800896
@@ -487,91 +487,10 @@ MonoBehaviour:
       Full time and geographic
       availability.
 
-      I have a 33% disability due to Crohn''s disease, which
-      does not represent an impediment to carry out my work correctly.
+      I have type B license and own vehicle.
 
-      I have
-      type B license and own vehicle.
-
-      Contact: franvazquez1993@gmail.com'
-    m_Metadata:
-      m_Items: []
-  - m_Id: 10803191582220288
-    m_Localized: My Games
-    m_Metadata:
-      m_Items: []
-  - m_Id: 13315232394043392
-    m_Localized: Download LifeAdventures
-    m_Metadata:
-      m_Items: []
-  - m_Id: 13315381971312640
-    m_Localized: Download HitTheMole
-    m_Metadata:
-      m_Items: []
-  - m_Id: 13315536611106816
-    m_Localized: Download InfiniteRunner
-    m_Metadata:
-      m_Items: []
-  - m_Id: 13319009658396672
-    m_Localized: Download JumpBall
-    m_Metadata:
-      m_Items: []
-  - m_Id: 13319115841396736
-    m_Localized: Download Clicker
-    m_Metadata:
-      m_Items: []
-  - m_Id: 13319234762498048
-    m_Localized: Download Platform Game
-    m_Metadata:
-      m_Items: []
-  - m_Id: 13319363460521984
-    m_Localized: Download Pong 2D
-    m_Metadata:
-      m_Items: []
-  - m_Id: 13319462865526784
-    m_Localized: Download Shoot Em Up
-    m_Metadata:
-      m_Items: []
-  - m_Id: 13340761205694464
-    m_Localized: Game based on Helix Jump, a simple game in which we have to avoid
-      certain platforms and manage to go down to the end of the level
-    m_Metadata:
-      m_Items: []
-  - m_Id: 13340724564254720
-    m_Localized: Pong arcade game, with different levels against AI and to play 2
-      players locally, you have different skins for the player.
-    m_Metadata:
-      m_Items: []
-  - m_Id: 13340692935008256
-    m_Localized: Game inspired by current clickers with a more medieval theme, and
-      different enemies that are unlocked throughout the game.
-    m_Metadata:
-      m_Items: []
-  - m_Id: 13340556292972544
-    m_Localized: Classic shoot em up game inspired by SpaceWar and others like it.
-      You have a ship which will improve throughout the game and face different enemies
-      and bosses.
-    m_Metadata:
-      m_Items: []
-  - m_Id: 13340494817058816
-    m_Localized: Classic whack-a-mole game from arcade machines, with a 3D touch
-      and added double point mechanics, increased time or lives for the player
-    m_Metadata:
-      m_Items: []
-  - m_Id: 13340453184397312
-    m_Localized: Game inspired by the classic 2D endlessRunners, temporary improvement
-      mechanics and simple item collection.
-    m_Metadata:
-      m_Items: []
-  - m_Id: 13340407835582464
-    m_Localized: 2D platform game inspired by the Mario bros, 4 playable levels and
-      different enemies to face throughout the adventure.
-    m_Metadata:
-      m_Items: []
-  - m_Id: 13339566110072832
-    m_Localized: 2D platform game with a fantasy theme was a master's degree project,
-      it consists of 3 playable levels with a final boss, different enemies and 3
-      characters to select
+      Contact:
+      franvazquez1993@gmail.com'
     m_Metadata:
       m_Items: []
   references:

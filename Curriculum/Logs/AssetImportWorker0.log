@@ -15,7 +15,7 @@ C:/Users/Vazkez/Documents/GitHub/Curriculum/Curriculum
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52004
+52830
 Successfully changed project path to: C:/Users/Vazkez/Documents/GitHub/Curriculum/Curriculum
 C:/Users/Vazkez/Documents/GitHub/Curriculum/Curriculum
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/Vazkez/Documents/GitHub/Curriculum/Curriculum
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [52292] Host "[IP] 192.168.1.128 [Port] 0 [Flags] 2 [Guid] 1604013146 [EditorId] 1604013146 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-TBO2R08) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [63952] Host "[IP] 192.168.1.128 [Port] 0 [Flags] 2 [Guid] 2330290376 [EditorId] 2330290376 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-TBO2R08) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [52292] Host "[IP] 192.168.1.128 [Port] 0 [Flags] 2 [Guid] 1604013146 [EditorId] 1604013146 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-TBO2R08) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [63952] Host "[IP] 192.168.1.128 [Port] 0 [Flags] 2 [Guid] 2330290376 [EditorId] 2330290376 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-TBO2R08) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 87.17 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 86.04 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.23f1 (213b516bf396)
 [Subsystems] Discovering subsystems at path D:/Unity Editors/2021.3.23f1/Editor/Data/Resources/UnitySubsystems
@@ -67,195 +67,192 @@ Initialize mono
 Mono path[0] = 'D:/Unity Editors/2021.3.23f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity Editors/2021.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Unity Editors/2021.3.23f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56836
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56408
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity Editors/2021.3.23f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/Unity Editors/2021.3.23f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: D:/Unity Editors/2021.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002428 seconds.
+Registered in 0.002207 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 184 ms
+Android Extension - Scanning For ADB Devices 175 ms
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 74.87 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 90.30 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.698 seconds
+- Completed reload, in  0.700 seconds
 Domain Reload Profiling:
-	ReloadAssembly (698ms)
-		BeginReloadAssembly (70ms)
+	ReloadAssembly (701ms)
+		BeginReloadAssembly (69ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (561ms)
-			LoadAssemblies (70ms)
+		EndReloadAssembly (562ms)
+			LoadAssemblies (69ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (84ms)
+			SetupTypeCache (80ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (22ms)
-			SetupLoadedEditorAssemblies (419ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (420ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (248ms)
+				InitializePlatformSupportModulesInManaged (234ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (75ms)
+				RefreshPlugins (90ms)
 				BeforeProcessingInitializeOnLoad (1ms)
 				ProcessInitializeOnLoadAttributes (66ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007020 seconds.
+Registered in 0.006160 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000002B1B7F15070 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file data-0000015741D0B430 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1BABA7020 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file data-0000015741D14C40 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1B7F15070 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll
+Symbol file data-000001573F8D7010 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1B808D020 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file data-000001573F762730 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1B45A7C20 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file data-0000015741D20250 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1B7F15070 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001573FFAEC20 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1B7F15070 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file data-0000015741D20250 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1B80B5E30 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file data-000001573FFAEC20 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\UnityEditor.CacheServer.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1B7F15070 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\UnityEditor.CacheServer.dll
+Symbol file data-000001573F8FFE20 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\PsdPlugin.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1BABBBE40 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file data-000001573FCEC010 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Addressables.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1BABBBE40 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Addressables.dll
+Symbol file data-000001573FD22820 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1B86D2E20 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001573FD22820 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1B802B820 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001573F542E20 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Localization.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1B9B43020 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Localization.dll
+Symbol file data-000001573FD22820 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1B802B820 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001573FD22820 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1B9455010 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001573F4BC6F0 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1B844E090 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file data-000001573F4BC6F0 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1B9455010 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001573FD22820 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1B9B7E640 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file data-000001573FD22820 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Burst.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1B9B7E640 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file data-000001573F769590 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1B9489430 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001573F50A910 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1B80C9440 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file data-000001573F793FA0 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1B9489430 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file data-000001573FFAEC20 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1B8110580 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file data-000001573F512920 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1B7F15070 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
+Symbol file data-000001573F7A55B0 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1B86E9C30 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file data-00000157412F3010 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.ResourceManager.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1B7CE3E20 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.ResourceManager.dll
+Symbol file data-000001573F844E70 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1B95E2E20 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file data-000001573F844E70 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1B86E9C30 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000001573F844E70 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1B81BFA20 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-000001573F857A80 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1B960AC40 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001573F876290 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1B960AC40 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file data-0000015741255020 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1B81DE230 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000001574126BE30 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1B86E9C30 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll
+Symbol file data-0000015741359030 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1B8110580 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file data-0000015741285380 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1B99EE430 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file data-0000015741285380 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Mathematics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1B99EE430 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file data-000001573F579040 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1B80C9440 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file data-0000015741285380 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Localization.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1B99EE430 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Localization.Editor.dll
+Symbol file data-000001573FD3D070 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Burst.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1B47A83C0 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file data-000001573FFAEC20 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1B849D2B0 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file data-000001573F512920 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1B81F5040 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file data-000001573FFAEC20 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1B86F5040 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file data-000001573FFAEC20 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.013.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1B949AA40 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.013.dll
+Symbol file data-000001573FD3D070 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1B47A83C0 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001573FF4BDA0 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1B949AA40 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001573FFAEC20 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.013.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1B86F5040 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.013.dll
+Symbol file data-000001573FFAEC20 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1B849D2B0 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file data-000001574126BE30 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1B81FD050 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file data-000001573FF4BDA0 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1B949AA40 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.dll
+Symbol file data-0000015740EF4020 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Addressables.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1B47A83C0 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Addressables.Editor.dll
+Symbol file data-00000157410A2240 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1B489D150 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file data-0000015740F39840 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1B46E41F0 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.Editor.dll
+Symbol file data-000001573F7C53C0 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1B7F15070 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file data-00000157410A2240 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1B489D150 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1B7CEE830 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file data-000001573F512920 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 80.68 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 87.90 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Asset Pipeline Refresh: Total: 0.000 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
 Mono: successfully reloaded assembly
-- Completed reload, in  0.977 seconds
+- Completed reload, in  0.987 seconds
 Domain Reload Profiling:
-	ReloadAssembly (978ms)
-		BeginReloadAssembly (104ms)
+	ReloadAssembly (987ms)
+		BeginReloadAssembly (93ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (800ms)
-			LoadAssemblies (80ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (813ms)
+			LoadAssemblies (77ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (205ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (431ms)
+			SetupTypeCache (208ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (428ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
+				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (81ms)
-				BeforeProcessingInitializeOnLoad (82ms)
-				ProcessInitializeOnLoadAttributes (207ms)
-				ProcessInitializeOnLoadMethodAttributes (48ms)
+				RefreshPlugins (88ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (222ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -263,13 +260,13 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.68 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.56 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 44 unused Assets / (200.8 KB). Loaded Objects now: 5253.
-Memory consumption went from 80.6 MB to 80.4 MB.
-Total: 2.688600 ms (FindLiveObjects: 0.259400 ms CreateObjectMapping: 0.150500 ms MarkObjects: 2.163300 ms  DeleteObjects: 0.114600 ms)
+Unloading 4792 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (203.4 KB). Loaded Objects now: 5253.
+Memory consumption went from 177.5 MB to 177.3 MB.
+Total: 2.769500 ms (FindLiveObjects: 0.256900 ms CreateObjectMapping: 0.157900 ms MarkObjects: 2.241000 ms  DeleteObjects: 0.113100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -283,181 +280,389 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 8110.353485 seconds.
-  path: Assets/Scenes/MyGames.unity
-  artifactKey: Guid(782cc3aa16aa407479b62f9c36a79a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MyGames.unity using Guid(782cc3aa16aa407479b62f9c36a79a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9429b7a320cf70454377c0103a3ffc4') in 0.006190 seconds 
+  Time since last request: 13861.613465 seconds.
+  path: Assets/Prefabs/PlatformBigMidGrey.prefab
+  artifactKey: Guid(92e60661891e77544848658604631b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlatformBigMidGrey.prefab using Guid(92e60661891e77544848658604631b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05dc0a755ef011965eaabe11397878a7') in 0.090325 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.273525 seconds.
-  path: Assets/Scenes/AboutMe.unity
-  artifactKey: Guid(3ff0bc1df91ed414fbe1b9fde0a5673a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/AboutMe.unity using Guid(3ff0bc1df91ed414fbe1b9fde0a5673a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '478a15362af3d1eccff89263c004899f') in 0.006011 seconds 
+  Time since last request: 0.000017 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(7de3f5c350627404f9c29214d5e546c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(7de3f5c350627404f9c29214d5e546c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55f26ac17e824e488051c35e3db4cbdd') in 0.007472 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 40.138621 seconds.
-  path: Assets/Scenes/MainMenu.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MainMenu.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c72d6db185368c6441738ce8dedab064') in 0.008036 seconds 
+  Time since last request: 0.000024 seconds.
+  path: Assets/Prefabs/leaf-platform.prefab
+  artifactKey: Guid(01631d9c2c00d294fa20e3ac7135bc8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/leaf-platform.prefab using Guid(01631d9c2c00d294fa20e3ac7135bc8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf43b46a789923136b2708c1523c69bb') in 0.021865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Prefabs/Bridge1.prefab
+  artifactKey: Guid(367221ffebc11434e8108d93ef4435a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bridge1.prefab using Guid(367221ffebc11434e8108d93ef4435a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32d98877674bbf0fc462a682dfb775a2') in 0.022018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Prefabs/PlatformBigRightb.prefab
+  artifactKey: Guid(ff308404e3429714585afd6f58afbac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlatformBigRightb.prefab using Guid(ff308404e3429714585afd6f58afbac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98db2903943f8d834dc5cabaac0c1951') in 0.011275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Prefabs/Lodge.prefab
+  artifactKey: Guid(9a3786b1a41d2fe459f56a928e23aeed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lodge.prefab using Guid(9a3786b1a41d2fe459f56a928e23aeed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a2f5c9dc8ff77ac923596938d6a3782') in 0.007119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Prefabs/PlatformBigLGrey.prefab
+  artifactKey: Guid(c1ed21d4d5fd46f46ab5f3cbb2686ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlatformBigLGrey.prefab using Guid(c1ed21d4d5fd46f46ab5f3cbb2686ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '272a3144cc7a743ab5f0ac6316bdcde8') in 0.010948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Prefabs/trunk1.prefab
+  artifactKey: Guid(30143446b953f8e4cb48756421025b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/trunk1.prefab using Guid(30143446b953f8e4cb48756421025b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf1359a9656545fe1b05d93f511986c2') in 0.110743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Prefabs/fluffy_platform2.prefab
+  artifactKey: Guid(7456c4eb8d29ddb42a3fa4b1200ce440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fluffy_platform2.prefab using Guid(7456c4eb8d29ddb42a3fa4b1200ce440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '798c5e758bc390eb2cfed0d77640e8ab') in 0.025230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Prefabs/Monkeys.prefab
+  artifactKey: Guid(425effb42e376da44823a4aa6263f536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Monkeys.prefab using Guid(425effb42e376da44823a4aa6263f536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2433f6c470f74c023d00594ea2845122') in 0.290829 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006070 seconds.
+Registered in 0.007568 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000002B1B85AEC50 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file data-000001573F807010 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1BA77AE40 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file data-000001573FC33820 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1B85AEC50 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll
+Symbol file data-000001574573D060 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1B7E695E0 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file data-00000157462EBCA0 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1BA5DDA50 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file data-000001573FAF7A20 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1B85AEC50 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-0000015741EA5030 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1B85AEC50 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file data-000001574525F010 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1BA085010 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file data-0000015741EA5030 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\UnityEditor.CacheServer.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1B85AEC50 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\UnityEditor.CacheServer.dll
+Symbol file data-000001573FAF7A20 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\PsdPlugin.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1B87C5010 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file data-0000015741E3B010 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Addressables.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1B8957010 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Addressables.dll
+Symbol file data-000001573BCC3010 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1BFEAF8D0 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-0000015745AF9850 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1BA78E450 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-0000015741255020 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Localization.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1BA808CB0 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Localization.dll
+Symbol file data-0000015741E3B010 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1B7ED9F70 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001574116B020 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1B84C1440 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001574580F120 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1BCD69060 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file data-000001574597B020 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1BCFD0020 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-0000015745AF9850 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1BF15CE10 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file data-0000015745AF9850 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Burst.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1BF15CE10 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file data-000001573F827040 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1BF278020 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-0000015745AF9850 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1BF15CE10 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file data-000001573BCC3010 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1BF278020 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file data-000001574126FA30 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1BA8236C0 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file data-0000015741E3B010 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1BF15CE10 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
+Symbol file data-0000015741E3B010 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1B87C5010 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file data-000001574406D010 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.ResourceManager.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1BD052010 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.ResourceManager.dll
+Symbol file data-0000015745493020 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1BD359030 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file data-0000015741E3B010 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1BF15CE10 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-0000015745493020 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1BD359030 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-0000015741E3B010 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1BF15CE10 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-0000015741E3B010 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1B7F0E260 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file data-00000157414C3010 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1BD359030 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-0000015741E3B010 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1BEE9F830 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll
+Symbol file data-00000157454D0430 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1BA8236C0 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file data-000001574464B020 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1BA31D050 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file data-000001574580F120 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Mathematics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1BD780020 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file data-000001573F182090 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1BEE9F830 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file data-000001574464B020 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Localization.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1BA31D050 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Localization.Editor.dll
+Symbol file data-000001574464B020 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Burst.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1BA31D050 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file data-00000157454D0430 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1BEAFD490 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file data-0000015741E3B010 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1BEE9F830 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file data-0000015741E3B010 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1BEAFD490 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file data-0000015741E3B010 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.013.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1BEAFD490 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.013.dll
+Symbol file data-0000015741CF4020 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1BCF76010 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-0000015741E3B010 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1BEAFD490 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-0000015741E3B010 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.013.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1BEAFD490 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.013.dll
+Symbol file data-0000015741E40E20 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1BF15CE10 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file data-0000015741E40E20 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1B87C5010 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file data-0000015741975980 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1BEAFD490 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.dll
+Symbol file data-000001574464B020 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Addressables.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1BA31D050 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Addressables.Editor.dll
+Symbol file data-000001574406D010 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1B87C5010 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file data-00000157442DB010 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1BD36FE40 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.Editor.dll
+Symbol file data-000001574467C430 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1BFEF7910 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file data-000001574467C430 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1B7E93FF0 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B1BFEF7910 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file data-0000015744682E40 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.88 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.849 seconds
+- Completed reload, in  0.920 seconds
 Domain Reload Profiling:
-	ReloadAssembly (850ms)
-		BeginReloadAssembly (127ms)
+	ReloadAssembly (920ms)
+		BeginReloadAssembly (137ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (658ms)
-			LoadAssemblies (94ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (710ms)
+			LoadAssemblies (97ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (233ms)
+			SetupTypeCache (203ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (254ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (308ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
+				InitializePlatformSupportModulesInManaged (18ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (59ms)
-				ProcessInitializeOnLoadAttributes (144ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (169ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (16ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.92 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.32 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4750 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (196.0 KB). Loaded Objects now: 5256.
-Memory consumption went from 175.2 MB to 175.0 MB.
-Total: 2.462800 ms (FindLiveObjects: 0.219700 ms CreateObjectMapping: 0.144700 ms MarkObjects: 1.985300 ms  DeleteObjects: 0.112400 ms)
+Unloading 32 unused Assets / (195.9 KB). Loaded Objects now: 5264.
+Memory consumption went from 179.6 MB to 179.5 MB.
+Total: 2.486500 ms (FindLiveObjects: 0.221200 ms CreateObjectMapping: 0.137400 ms MarkObjects: 2.004000 ms  DeleteObjects: 0.123200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007023 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000157459A0A30 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001574253B020 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015740BF4020 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015745736030 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001574253B020 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001574541A010 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000157440C5020 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001574541A010 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\UnityEditor.CacheServer.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015746DFF030 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015741E3B010 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Addressables.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015744253050 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000157463C4020 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000157414C3010 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Localization.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015741E3B010 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001574116B020 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001574490A020 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015742B4E010 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000157463C4020 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001573F90D820 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015740C1CE30 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015741F0E020 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015744253050 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000157414DDA20 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015741F0E020 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015741876BD0 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015742B7D420 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.ResourceManager.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001573F844E70 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015741876BD0 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001573F844E70 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001573F90D820 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000157AAB670B0 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001574435B040 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001573F90D820 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000157414DDA20 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000157AAB94BF0 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001573F4BC6F0 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015741F0E020 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000157AAB94BF0 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Localization.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000157AAB94BF0 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001574541A010 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015741F0E020 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001574541A010 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001574541A010 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.013.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001573F4BC6F0 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001574541A010 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001574541A010 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.013.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001574541A010 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001573F90D820 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001574541A010 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000157AAB94BF0 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Addressables.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015741CDB990 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000157442DB010 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001573FAA4030 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015741E3B010 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015741CDB990 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.873 seconds
+Domain Reload Profiling:
+	ReloadAssembly (874ms)
+		BeginReloadAssembly (120ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (684ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (208ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (288ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (161ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.34 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4750 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (196.0 KB). Loaded Objects now: 5267.
+Memory consumption went from 179.7 MB to 179.5 MB.
+Total: 2.657600 ms (FindLiveObjects: 0.258800 ms CreateObjectMapping: 0.126400 ms MarkObjects: 2.155000 ms  DeleteObjects: 0.116700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -471,19 +676,175 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 88.386475 seconds.
-  path: Assets/Prefabs/Particles/Dust.prefab
-  artifactKey: Guid(8d218001a1e147542bc5a9058259e49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Particles/Dust.prefab using Guid(8d218001a1e147542bc5a9058259e49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '061767c19d13ff8db6e45f69d0827102') in 0.073906 seconds 
+  Time since last request: 92.000572 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+  artifactKey: Guid(c334973cef89a9840b0b0c507e0377ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc using Guid(c334973cef89a9840b0b0c507e0377ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1999694fbd3e051111afe8363ffdff0a') in 0.017761 seconds 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Prefabs/Particles/Sun Shafts.prefab
-  artifactKey: Guid(6a4a86a43eeda814ca70ecb8f3d325c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Particles/Sun Shafts.prefab using Guid(6a4a86a43eeda814ca70ecb8f3d325c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc8d3f89f142805a9c5ef7db64a33cc0') in 0.026713 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.598146 seconds.
-  path: Assets/Prefabs/Canvas/PointSelect.prefab
-  artifactKey: Guid(0254035f40f20404faf0027713793d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Canvas/PointSelect.prefab using Guid(0254035f40f20404faf0027713793d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ece2127ad3fd6be0c29ea298c8c1bb30') in 0.041577 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006859 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000015742773450 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015745D93010 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015740F78020 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015746A4A8C0 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015745D93010 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015746A69A20 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015746293010 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015746A546D0 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\UnityEditor.CacheServer.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015746B1C7F0 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000157AA75C010 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Addressables.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001573BCC3010 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015741876BD0 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000157414C3010 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Localization.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000157AA75C010 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015746AE4F60 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015742965020 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015746942020 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000157469265A0 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000157469265A0 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001573F827040 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001573BC92010 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001573BCC3010 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015746A546D0 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015740A5E050 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000157420D0020 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015746AE4F60 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.ResourceManager.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015744099010 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000157469265A0 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015744099010 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000157469265A0 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015746B1C7F0 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015746574030 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000157469265A0 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015746A546D0 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001573F8D7010 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000157457B7070 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000157445B3030 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001573F8D7010 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Localization.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001573F8D7010 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015746DB2DD0 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001574686F060 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015746A69A20 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001574687F780 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.013.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000157AAB94BF0 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001574687F780 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015746A69A20 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.013.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015746DB2DD0 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001573F344F20 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001573F6B2820 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001573F8D7010 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.Addressables.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015746DFF030 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015745B91030 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015740A5E050 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000157AA75C010 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015746A61540 doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Vazkez\Documents\GitHub\Curriculum\Curriculum\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.899 seconds
+Domain Reload Profiling:
+	ReloadAssembly (900ms)
+		BeginReloadAssembly (127ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (701ms)
+			LoadAssemblies (97ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (223ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (286ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (162ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.35 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4750 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (196.3 KB). Loaded Objects now: 5270.
+Memory consumption went from 179.7 MB to 179.5 MB.
+Total: 2.413500 ms (FindLiveObjects: 0.261100 ms CreateObjectMapping: 0.151300 ms MarkObjects: 1.875700 ms  DeleteObjects: 0.124900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
